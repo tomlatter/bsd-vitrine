@@ -84,9 +84,9 @@ const AboutUs = () => {
                       <Reavel>
                         {" "}
                         <li>
-                          Cours de Self-Défense avec échauffement et renforcement musculaire.<br/>
-                          Apprentissage de techniques de frappes et de protections, d'étranglement et de combat au sol. <br/>
-                          Assauts surveillés pieds-poings.
+
+                          Cours de <b>Self-Défense à mains nues</b> avec échauffement et renforcement musculaire.<br/>
+                          Au programme (liste non exhaustive) : Pieds-poings, clés, étranglements, amenées au sol, projections sur tatamis, contrôle au sol, combat debout, combat au sol, combat contre plusieurs adversaires, défense contre couteau et armes contondantes. Assauts libres, combats avec protections.
                         </li>
                       </Reavel>
                     </ul>
@@ -100,9 +100,13 @@ const AboutUs = () => {
                       <Reavel>
                         {" "}
                         <li>
-                          Cours de bâtons de combat et de cannes avec échauffement, renforcement musculaire, techniques de frappes et de contre-attaques.<br/>
-                          Apprentissage des enchainements techniques et codifiés, ainsi que les sept bottes secrètes.<br/>
-                          Assauts surveillés avec bâtons en bois et combats avec cannes en mousse.
+                          Cours de <b>Bâton de combat</b> et de cannes avec échauffement, renforcement musculaire.<br/>
+                          Techniques de frappe, parades et contres.
+                          Piques, blocages, balayages, chassés, dégagements, percussions.
+                          Désarmer, feintes. Bottes.
+                          Enchainements techniques, enchainements projections, enchainements codifiés.
+                          Assauts au bâton long en rotin (1,60 m), assauts à la canne en rôtin (1m).
+                          Combats avec canne p.v.c mousse et protections. Combats avec bâton long et protections. Arbitrage.
                         </li>
                       </Reavel>
                     </ul>
@@ -117,7 +121,7 @@ const AboutUs = () => {
                         <Reavel>
                           {" "}
                           <li>
-                            Cours de self-défense pour séniors. Apprendre à se défendre à mains nues.<br/>
+                            Cours de <b>Self-défense pour séniors</b>. Apprendre à se défendre à mains nues.<br/>
                             Accessible aux non-licenciés. Cours que un samedi sur deux.
                           </li>
                         </Reavel>
