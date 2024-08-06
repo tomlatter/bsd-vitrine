@@ -51,7 +51,8 @@ const AboutUs = () => {
                       Vous n&#39;êtes pas plongé(e) dans le bain
                       directement. <br/>Un.e enseignant.e s&#39;occupera de vous et vous apprendra quelques techniques.<br/>
                       Et on répondra également à toutes vos questions.
-                      <br/>D
+                      <br/>
+                      <br/>
                       Si par la suite vous désirez continuer, un
                       certificat médical sera nécesaire.<br/>
                       Une cotisation vous sera également demandée.<br/>
