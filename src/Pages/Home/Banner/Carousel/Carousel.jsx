@@ -4,13 +4,13 @@ import "swiper/css";
 import './Carousel.css';
 
 // Import images
-import img1 from '../../../../assets/photos/carousel/1.jpg';
-import img2 from '../../../../assets/photos/carousel/2.jpg';
-import img3 from '../../../../assets/photos/carousel/3.jpg';
-import img4 from '../../../../assets/photos/carousel/4.jpg';
-import img5 from '../../../../assets/photos/carousel/5.jpg';
-import img6 from '../../../../assets/photos/carousel/6.jpg';
-import img7 from '../../../../assets/photos/carousel/7.jpg';
+import img1 from '/photos/carousel/1.jpg';
+import img2 from '/photos/carousel/2.jpg';
+import img3 from '/photos/carousel/3.jpg';
+import img4 from '/photos/carousel/4.jpg';
+import img5 from '/photos/carousel/5.jpg';
+import img6 from '/photos/carousel/6.jpg';
+import img7 from '/photos/carousel/7.jpg';
 
 const Carousel = () => {
   return (
