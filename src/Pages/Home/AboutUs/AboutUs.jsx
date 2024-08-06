@@ -136,7 +136,7 @@ const AboutUs = () => {
                       <br/> Créé à Toulouse en 1984 par Maître Jean Louis Brinker.
                         <br/>
                         <Link to="https://www.baton-self.com" target="_blank" className="text-purple-500 font-semibold mt-2 underline">
-                        <span className="text-purple-500">Plus d'informations sur le site officiel du B.S-D</span>
+                        <span className="text-purple-500">Plus d'informations sur le site historique du B.S-D</span>
                       </Link>
                       </p>
                     </Reavel>

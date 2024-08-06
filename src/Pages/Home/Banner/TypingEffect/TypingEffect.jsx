@@ -23,7 +23,7 @@ const TypingEffect = () => {
         <p className="my-3 md:text-2xl"><br />
           Club d'arts martiaux à Toulouse depuis 1984.<br />
           Cours les lundis et jeudis de 20h à 22h.<br />
-          Inscription annuel à seulement 150€.
+          Cotisation annuelle à seulement 150€.
         </p><br />
         <a 
           href="#programmes" onClick={() => setActiveNav("#programmes")} className="btn bg-transparent border-2 border-purple-500 text-white px-5 transition-all hover:scale-95 hover:bg-purple-500 hover:border-purple-500">
