@@ -21,7 +21,7 @@ const AboutUs = () => {
                   <img
                     className="md:max-w-md max-w-sm rounded-xl"
                     loading="lazy"
-                    src="/assets/photos/gymnase.png"
+                    src="/photos/gymnase.png"
                     alt=""
                   />
                 </div>
@@ -70,7 +70,7 @@ const AboutUs = () => {
                   <img
                     className="md:max-w-md max-w-sm rounded-xl mx-auto"
                     loading="lazy"
-                    src="/assets/photos/bouclier.jpg"
+                    src="/photos/bouclier.jpg"
                     alt=""
                   />
                 </div>

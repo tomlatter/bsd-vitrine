@@ -41,7 +41,7 @@ const Facilities = () => {
                     alt="gallery"
                     loading="lazy"
                     className="facilities_card_img"
-                    src="/assets/photos/gymnase.png"
+                    src="/photos/gymnase.png"
                   />
                   <div className="facilities_card_overlay"></div>
                   <div className="absolute inset-0 text-white p-3 top-2/4 md:top-3/4 lg:top-2/4">
@@ -57,7 +57,7 @@ const Facilities = () => {
                     alt="gallery"
                     loading="lazy"
                     className="facilities_card_img"
-                    src="/assets/photos/baton4.jpg"
+                    src="/photos/baton4.jpg"
                   />
                   <div className="facilities_card_overlay"></div>
                   <div className="absolute inset-0 text-white p-3 top-2/4 lg:top-2/4 md:top-3/4">
@@ -72,7 +72,7 @@ const Facilities = () => {
                     alt="gallery"
                     loading="lazy"
                     className="facilities_card_img"
-                    src="/assets/photos/bouclier.jpg"
+                    src="/photos/bouclier.jpg"
                   />
                   <div className="facilities_card_overlay"></div>
                   <div className="absolute inset-0 text-white p-3 top-2/4 md:top-3/4">
@@ -96,7 +96,7 @@ const Facilities = () => {
                     alt="gallery"
                     loading="lazy"
                     className="facilities_card_img"
-                    src="/assets/photos/protections.jpg"
+                    src="/photos/protections.jpg"
                   />
                   <div className="facilities_card_overlay"></div>
                   <div className="absolute inset-0 text-white p-3 top-2/4 md:top-3/4">
@@ -111,7 +111,7 @@ const Facilities = () => {
                     alt="gallery"
                     loading="lazy"
                     className="facilities_card_img"
-                    src="/assets/photos/tapis.jpg"
+                    src="/photos/tapis.jpg"
                   />
                   <div className="facilities_card_overlay"></div>
                   <div className="absolute inset-0 text-white p-3 top-2/4 lg:top-2/4 md:top-3/4">
