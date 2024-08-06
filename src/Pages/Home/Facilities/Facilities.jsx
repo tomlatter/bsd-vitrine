@@ -21,10 +21,10 @@ const Facilities = () => {
 
     return (
       <div
-        className="dark:bg-gray-700 bg-amber-300 pb-10 lg:pb-20"
+        className="dark:bg-gray-700 bg-purple-300 pb-10 lg:pb-20"
         id="facilities"
       >
-        <SectionHeader heading={"Our Academy Facilities"}></SectionHeader>
+        <SectionHeader heading={"Notre équipement"}></SectionHeader>
         <Container>
           <div className="-m-1 lg:flex lg:flex-wrap  md:-m-2">
             <motion.div
@@ -41,12 +41,12 @@ const Facilities = () => {
                     alt="gallery"
                     loading="lazy"
                     className="facilities_card_img"
-                    src="https://www.originpools.co.uk/images/2022/11/28/indoor-swimming-pool.webp"
+                    src="/src/assets/photos/gymnase.png"
                   />
                   <div className="facilities_card_overlay"></div>
                   <div className="absolute inset-0 text-white p-3 top-2/4 md:top-3/4 lg:top-2/4">
-                    <h4 className="text-xl font-semibold">Swimming Complex</h4>
-                    <p>Indoor & Outdoor Swimming Pools</p>
+                    <h4 className="text-xl font-semibold">Gymnase</h4>
+                    <p>Avec parking gratuit et vestiaires</p>
                   </div>
                 </div>
               </div>
@@ -57,12 +57,12 @@ const Facilities = () => {
                     alt="gallery"
                     loading="lazy"
                     className="facilities_card_img"
-                    src="https://www.mpsuk.net/wp-content/uploads/2022/01/school-sico-canteens.jpg"
+                    src="/src/assets/photos/baton4.jpg"
                   />
                   <div className="facilities_card_overlay"></div>
                   <div className="absolute inset-0 text-white p-3 top-2/4 lg:top-2/4 md:top-3/4">
-                    <h4 className="text-xl font-semibold">Canteen</h4>
-                    <p>Healthy Food Canteen</p>
+                  <h4 className="text-xl font-semibold">Bâtons de combat</h4>
+                    <p>Bâtons longs en bois rotin</p>
                   </div>
                 </div>
               </div>
@@ -72,12 +72,12 @@ const Facilities = () => {
                     alt="gallery"
                     loading="lazy"
                     className="facilities_card_img"
-                    src="https://www.rubbuk.com/wp-content/uploads/sites/2/2022/03/DSC_0445.jpg"
+                    src="/src/assets/photos/bouclier.jpg"
                   />
                   <div className="facilities_card_overlay"></div>
                   <div className="absolute inset-0 text-white p-3 top-2/4 md:top-3/4">
-                    <h4 className="text-xl font-semibold">Indoor Pitches</h4>
-                    <p>Expertly Maintained Grounds</p>
+                    <h4 className="text-xl font-semibold">Equipement pieds-poing</h4>
+                    <p>Sacs de frappe, pattes d'ours, boucliers de frappe et gants de boxe</p>
                   </div>
                 </div>
               </div>
@@ -96,12 +96,12 @@ const Facilities = () => {
                     alt="gallery"
                     loading="lazy"
                     className="facilities_card_img"
-                    src="https://www.prosportsurfaces.co.uk/wp-content/uploads/2020/02/outdoor-football-pitch.jpg"
+                    src="/src/assets/photos/protections.jpg"
                   />
                   <div className="facilities_card_overlay"></div>
                   <div className="absolute inset-0 text-white p-3 top-2/4 md:top-3/4">
-                    <h4 className="text-xl font-semibold">Outdoor Pitches</h4>
-                    <p>Synthetic Sports Pitches</p>
+                    <h4 className="text-xl font-semibold">Protections</h4>
+                    <p>Casques, gants, plastrons et garde-jambes</p>
                   </div>
                 </div>
               </div>
@@ -111,12 +111,12 @@ const Facilities = () => {
                     alt="gallery"
                     loading="lazy"
                     className="facilities_card_img"
-                    src="https://levelfyc.com/wp-content/uploads/2021/09/lou-3803.jpg"
+                    src="/src/assets/photos/tapis.jpg"
                   />
                   <div className="facilities_card_overlay"></div>
                   <div className="absolute inset-0 text-white p-3 top-2/4 lg:top-2/4 md:top-3/4">
-                    <h4 className="text-xl font-semibold">Modern Gym</h4>
-                    <p>With Professional Trainer</p>
+                    <h4 className="text-xl font-semibold">Tapis de sol</h4>
+                    <p>Pour travailler des clés et projections</p>
                   </div>
                 </div>
               </div>
@@ -130,8 +130,8 @@ const Facilities = () => {
                   />
                   <div className="facilities_card_overlay"></div>
                   <div className="absolute inset-0 text-white p-3 top-2/4 lg:top-2/4 md:top-3/4">
-                    <h4 className="text-xl font-semibold">Player Recovery</h4>
-                    <p>To Become More Productive</p>
+                    <h4 className="text-xl font-semibold">Armes d'entraînement</h4>
+                    <p>Couteaux et pistolets factices</p>
                   </div>
                 </div>
               </div>

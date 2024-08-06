@@ -9,7 +9,7 @@ const TestimonialCard = ({ testimonial }) => {
       <div className="flex justify-center items-center">
         <img className="max-w-20 testimony rounded-full" src={image} alt="" />
       </div>
-      <p className="text-amber-500 dark:text-white font-semibold -mb-1.5">
+      <p className="text-purple-500 dark:text-white font-semibold -mb-1.5">
         {name}
       </p>
       <span className="text-sm ">{designation}</span>

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const ProgramCard = ({ program,index }) => {
-  const { name, image1 } = program;
+  const { name, image1, description, schedule } = program;
 
   return (
     <div className="relative max-w-96 h-96 bg-cover bg-center bg-no-repeat hover:shadow-xl transition-transform transform  hover:bg-black hover:bg-opacity-70 group rounded-xl" >
@@ -13,8 +13,9 @@ const ProgramCard = ({ program,index }) => {
         <h2 className="card_effect text-white text-2xl md:text-3xl font-bold  translate-y-2 group-hover:-translate-y-4">
           {name}
         </h2>
-        <Link className="card_effect text-white hover:text-amber-500 font-semibold mt-2  translate-y-2 opacity-0 group-hover:opacity-100 group-hover:-translate-y-4">
-          Read More
+        <Link className="card_effect text-white hover:text-purple-500 font-semibold mt-2  translate-y-2 opacity-0 group-hover:opacity-100 group-hover:-translate-y-4">
+          <span className="text-purple-500">{schedule}</span>
+          <br/>{description}
         </Link>
       </div>
     </div>

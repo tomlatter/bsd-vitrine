@@ -8,7 +8,7 @@ import FadeInAnimation from '../../../Components/FadeInAnimation/FadeInAnimation
 const ContactUs = () => {
     return (
       <div
-        className="dark:bg-gray-700 bg-amber-300 pb-10 lg:pb-20"
+        className="dark:bg-gray-700 bg-purple-300 pb-10 lg:pb-20"
         id="contactus"
       >
         <SectionHeader heading={"Contact Us"}></SectionHeader>
@@ -27,7 +27,7 @@ const ContactUs = () => {
                     Your Name
                   </label>
                   <input
-                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-500 bg-white dark:bg-slate-500"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-500 bg-white dark:bg-slate-500"
                     type="text"
                     id="name"
                     placeholder="Enter your name"
@@ -41,7 +41,7 @@ const ContactUs = () => {
                     Email address
                   </label>
                   <input
-                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-500 bg-white dark:bg-slate-500"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-500 bg-white dark:bg-slate-500"
                     type="email"
                     id="email"
                     placeholder="Enter your email address"
@@ -55,13 +55,13 @@ const ContactUs = () => {
                     Message
                   </label>
                   <textarea
-                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-500 bg-white dark:bg-slate-500"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-500 bg-white dark:bg-slate-500"
                     rows="3"
                     id="message"
                     placeholder="Write your message"
                   ></textarea>
                 </div>
-                <button className=" bg-amber-500 hover:bg-amber-600 text-white font-semibold py-2 px-4 rounded-lg transition-transform transform duration-300 hover:scale-95">
+                <button className=" bg-purple-500 hover:bg-purple-600 text-white font-semibold py-2 px-4 rounded-lg transition-transform transform duration-300 hover:scale-95">
                   Submit
                 </button>
               </form>

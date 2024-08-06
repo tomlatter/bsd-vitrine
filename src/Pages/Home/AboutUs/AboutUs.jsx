@@ -4,14 +4,15 @@ import Container from '../../../Components/Container/Container';
 import logo from '../../../assets/logo/logo.png';
 import FadeInAnimation from '../../../Components/FadeInAnimation/FadeInAnimation';
 import Reavel from '../../../Components/Reveal/Reavel';
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
     return (
       <div
-        className="dark:bg-gray-700 bg-amber-300 pb-10 lg:pb-20"
+        className="dark:bg-gray-700 bg-purple-300 pb-10 lg:pb-20"
         id="aboutus"
       >
-        <SectionHeader heading={"About Us"}></SectionHeader>
+        <SectionHeader heading={"Nos cours"}></SectionHeader>
         <Container>
           <div className="grid grid-cols-1 gap-10">
             <FadeInAnimation>
@@ -20,7 +21,7 @@ const AboutUs = () => {
                   <img
                     className="md:max-w-md max-w-sm rounded-xl"
                     loading="lazy"
-                    src="https://www.rheinzink.com/fileadmin/_processed_/a/0/csm_109-1919-001_A2_ret_ca3b9094c7.jpg"
+                    src="/src/assets/photos/gymnase.png"
                     alt=""
                   />
                 </div>
@@ -35,31 +36,31 @@ const AboutUs = () => {
                   </div>
                   <Reavel>
                     <p className="dark:text-white text-slate-700">
-                      Welcome to{" "}
-                      <span className="font-semibold">
-                        The Northern Sports Academy
-                      </span>
-                      , where passion, dedication, and excellence converge.
-                    </p>
-                  </Reavel>
-                  <Reavel>
-                    <p className="dark:text-white text-slate-700">
-                      At Northern Sports Academy, we're more than just a sports
-                      organization. We're a community united by a love for
-                      sports and a commitment to nurturing the talents and
-                      aspirations of athletes from all walks of life.
+                    <br/>
+                    <Reavel>
+                      <p className="font-bold text-xl mb-2">Cours d'essai gratuit</p>
+                    </Reavel>
+                      Le mieux pour se faire une idée précise, est de venir essayer.<br/>
+                      Pour s&#39;inscrire, il est préférable d&#39;appeler le 07 69 23 76 77.<br/>
+                      Laissez un message vocal en indiquant
+                      votre nom et votre âge.<br/>
+                      Et précisez si c&#39;est pour la Self-Défense (lundi) ou le Bâton de combat (jeudi).
+                      <br/><br/>
+                      Pour celà, un T-shirt, un pantalon de
+                      survêtement et une paire de tennis suffisent.<br/>
+                      Vous n&#39;êtes pas plongé(e) dans le bain
+                      directement. <br/>Un.e enseignant.e s&#39;occupera de vous et vous apprendra quelques techniques.<br/>
+                      Et on répondra également à toutes vos questions.
+                      <br/>D
+                      Si par la suite vous désirez continuer, un
+                      certificat médical sera nécesaire.<br/>
+                      Une cotisation vous sera également demandée.<br/>
+                      <Link to="https://www.baton-self.com/fr/cours/cotisation" target="_blank" className="text-purple-500 font-semibold mt-2 underline">
+                        <span className="text-purple-500">Plus d'informations sur les cotisations ici</span>
+                      </Link>
                     </p>
                   </Reavel>
                   <br />
-                  <Reavel>
-                    <p className="dark:text-white text-slate-700">
-                      Whether you're a young athlete with a dream, a parent
-                      looking to support your child's passion, or a seasoned
-                      player aiming for new heights, Northern Sports Academy
-                      welcomes you. Join us on a journey of skill development,
-                      camaraderie, and sportsmanship.
-                    </p>
-                  </Reavel>
                 </div>
               </div>
             </FadeInAnimation>
@@ -69,66 +70,76 @@ const AboutUs = () => {
                   <img
                     className="md:max-w-md max-w-sm rounded-xl mx-auto"
                     loading="lazy"
-                    src="https://images.unsplash.com/photo-1526232761682-d26e03ac148e?auto=format&fit=crop&q=80&w=1429&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src="/src/assets/photos/bouclier.jpg"
                     alt=""
                   />
                 </div>
                 <div>
                   <div className="dark:text-white text-slate-700">
                     <Reavel>
-                      <p className="font-bold text-xl mb-2">What We Offer:</p>
+                      <p className="font-bold text-xl mb-2">Lundis 20h - 22h</p>
                     </Reavel>
                     <ul className="list-disc ps-6">
                       <Reavel>
-                        <li>
-                          <span className="font-semibold">
-                            Expert Coaching:
-                          </span>{" "}
-                          Our team of experienced coaches and trainers are
-                          dedicated to helping athletes reach their full
-                          potential. We offer coaching in a wide range of
-                          sports, from soccer and basketball to swimming and
-                          athletics.
-                        </li>
-                      </Reavel>
-                      <Reavel>
                         {" "}
                         <li>
-                          <span className="font-semibold">
-                            State-of-the-Art Facilities:
-                          </span>{" "}
-                          {""}
-                          Our world-class facilities are designed to provide
-                          athletes with the tools they need to succeed. From
-                          cutting-edge equipment to well-maintained fields and
-                          courts, we spare no effort in creating an ideal
-                          training environment.
-                        </li>
-                      </Reavel>
-                      <Reavel>
-                        <li>
-                          <span className="font-semibold">
-                            Sportsmanship and Values:
-                          </span>{" "}
-                          We believe in the power of sports to instill values
-                          like discipline, teamwork, and perseverance. Our
-                          programs are designed to foster not only athletic
-                          prowess but also personal growth.
-                        </li>
-                      </Reavel>
-                      <Reavel>
-                        <li>
-                          <span className="font-semibold">
-                            Community and Support:
-                          </span>{" "}
-                          {""}
-                          At Northern Sports Academy, we're more than a team;
-                          we're a family. Our supportive community of athletes,
-                          parents, and coaches creates an atmosphere of
-                          encouragement and camaraderie.
+                          Cours de Self-Défense avec échauffement et renforcement musculaire.<br/>
+                          Apprentissage de techniques de frappes et de protections, d'étranglement et de combat au sol. <br/>
+                          Assauts surveillés pieds-poings.
                         </li>
                       </Reavel>
                     </ul>
+                  </div>
+                  <br/>
+                  <div className="dark:text-white text-slate-700">
+                    <Reavel>
+                      <p className="font-bold text-xl mb-2">Jeudis 20h - 22h</p>
+                    </Reavel>
+                    <ul className="list-disc ps-6">
+                      <Reavel>
+                        {" "}
+                        <li>
+                          Cours de bâtons de combat et de cannes avec échauffement, renforcement musculaire, techniques de frappes et de contre-attaques.<br/>
+                          Apprentissage des enchainements techniques et codifiés, ainsi que les sept bottes secrètes.<br/>
+                          Assauts surveillés avec bâtons en bois et combats avec cannes en mousse.
+                        </li>
+                      </Reavel>
+                    </ul>
+                  </div>
+                  <br/>
+                  <div>
+                    <div className="dark:text-white text-slate-700">
+                      <Reavel>
+                        <p className="font-bold text-xl mb-2">Samedis 14h - 16h</p>
+                      </Reavel>
+                      <ul className="list-disc ps-6">
+                        <Reavel>
+                          {" "}
+                          <li>
+                            Cours de self-défense pour séniors. Apprendre à se défendre à mains nues.<br/>
+                            Accessible aux non-licenciés. Cours que un samedi sur deux.
+                          </li>
+                        </Reavel>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </FadeInAnimation>
+            <FadeInAnimation>
+              <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
+                <div>
+                  <div className="dark:text-white text-slate-700">
+                    <Reavel>
+                      <p className="font-bold text-xl mb-2">Le B.S-D Bâton de Combat. Self-Défense est un art martial français.
+                      <br/> Créé à Toulouse en 1984 par Maître Jean Louis Brinker.
+                        <br/>
+                        <Link to="https://www.baton-self.com" target="_blank" className="text-purple-500 font-semibold mt-2 underline">
+                        <span className="text-purple-500">Plus d'informations sur le site officiel du B.S-D</span>
+                      </Link>
+                      </p>
+                    </Reavel>
+                    
                   </div>
                 </div>
               </div>

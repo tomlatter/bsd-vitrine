@@ -45,7 +45,7 @@ const Navbar = () => {
           className={activeNav === "#home" ? " active_link" : ""}
           onClick={() => setActiveNav("#home")}
         >
-          Home
+          Acceuil
         </a>
       </li>
       <li>
@@ -54,7 +54,7 @@ const Navbar = () => {
           className={activeNav === "#programmes" ? " active_link" : ""}
           onClick={() => setActiveNav("#programmes")}
         >
-          Sports
+          Disciplines
         </a>
       </li>
       <li>
@@ -63,7 +63,7 @@ const Navbar = () => {
           className={activeNav === "#facilities" ? " active_link" : ""}
           onClick={() => setActiveNav("#facilities")}
         >
-          Facilities
+          Equipement
         </a>
       </li>
       <li>
@@ -72,7 +72,7 @@ const Navbar = () => {
           className={activeNav === "#instructors" ? " active_link" : ""}
           onClick={() => setActiveNav("#instructors")}
         >
-          Instructors
+          Enseignants
         </a>
       </li>
       <li>
@@ -81,7 +81,7 @@ const Navbar = () => {
           className={activeNav === "#aboutus" ? " active_link" : ""}
           onClick={() => setActiveNav("#aboutus")}
         >
-          About Us
+          Cours
         </a>
       </li>
       <li>
@@ -90,43 +90,16 @@ const Navbar = () => {
           className={activeNav === "#contactus" ? " active_link" : ""}
           onClick={() => setActiveNav("#contactus")}
         >
-          Contact Us
+          Contact
         </a>
       </li>
-      {/* if user logged then show this nav items */}
-      {user ? (
-        <>
-          <li>
-            <a>Dashboard</a>
-          </li>
-          <div className="tooltip tooltip-bottom" data-tip={user.displayName}>
-            <img
-              className="w-10 rounded-full dark:border-white border-red-600 border mx-4"
-              src={
-                user.photoURL
-                  ? user.photoURL
-                  : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/User-avatar.svg/1024px-User-avatar.svg.png"
-              }
-              alt=""
-            />
-          </div>
-          <button className="btn-sm ms-3 bg-amber-500 hover:bg-amber-600 text-white rounded">
-            Log Out
-          </button>
-        </>
-      ) : (
-        <>
-          <li>
-            <Link to="/signin">Login</Link>
-          </li>
-        </>
-      )}
+      
     </>
   );
   return (
     <>
       {/* for small display */}
-      <div className="lg:hidden bg-red-500 flex justify-center items-center py-2">
+      <div className="lg:hidden bg-purple-500 flex justify-center items-center py-2">
         <img className="w-20" src={logo} alt="logo" />
       </div>
       <div
@@ -138,7 +111,7 @@ const Navbar = () => {
           <div className="dropdown">
             <label
               tabIndex={0}
-              className="btn btn-ghost bg-red-500 lg:hidden hover:bg-red-600"
+              className="btn btn-ghost bg-purple-500 lg:hidden hover:bg-majenta-500"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -157,7 +130,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-red-500 dark:bg-gray-700 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-purple-500 dark:bg-gray-700 rounded-box w-52"
             >
               {navOptions}
             </ul>
@@ -174,7 +147,7 @@ const Navbar = () => {
           <ul
             className={`menu menu-horizontal px-1 font-semibold ${
               navbarBg !== "transparent"
-                ? "text-red-500 dark:text-white"
+                ? "text-black"
                 : "text-white"
             } `}
           >
@@ -183,35 +156,18 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <div className="flex justify-center relative w-fit items-center rounded-full">
-            <button
-              className="toggle_class text-white dark:lg:text-white dark:text-red-500"
-              onClick={() => setTheme("light")}
-            >
-              <FiMoon className="relative z-10 text-lg md:text-sm" />
-              <span className="relative z-10 hidden md:block">Light</span>
-            </button>
-            <button
-              className={`toggle_class dark:text-white ${
-                navbarBg !== "transparent"
-                  ? "text-red-500"
-                  : "text-red-500 lg:text-white"
-              }`}
-              onClick={() => setTheme("dark")}
-            >
-              <FiSun className="relative z-10 text-lg md:text-sm" />
-              <span className="relative z-10 hidden md:block ">Dark</span>
-            </button>
+            
             <div className="absolute inset-0 z-0 flex dark:justify-end justify-start">
               <motion.span
                 layout
                 transition={{ type: "spring", damping: 15, stiffness: 250 }}
-                className="h-full w-1/2 rounded-full bg-gradient-to-r from-red-500 to-yellow-500"
+                className="h-full w-1/2 rounded-full bg-gradient-to-r from-majenta-500 to-purple-500"
               ></motion.span>
             </div>
           </div>
         </div>
         <span
-          className="absolute bg-gradient-to-r from-red-500 via-yellow-500 to-transparent h-1 w-full bottom-0"
+          className="absolute bg-gradient-to-r from-majenta-500 via-purple-500 to-transparent h-1 w-full bottom-0"
           style={{ transform: `translateX(${completion - 101}%)` }}
         ></span>
       </div>

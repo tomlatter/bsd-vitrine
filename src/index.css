@@ -4,7 +4,7 @@
 
 @layer components{
     .navbar_bg{
-        @apply bg-white dark:bg-gray-800 shadow-md;
+        @apply bg-white dark:bg-majenta-800 shadow-md;
     }
     .toggle_class{
         @apply text-sm font-medium flex items-center gap-2 px-3 md:pl-3 md:pr-3.5 py-1 md:py-1.5 transition-colors relative z-10;
@@ -19,6 +19,6 @@
         @apply absolute inset-0 bg-gradient-to-t from-black to-transparent;
     }
     .active_link{
-        @apply text-amber-500 border-b-2 rounded-none border-b-amber-500;
+        @apply text-purple-500 border-b-2 rounded-none border-b-purple-500;
     }
 }

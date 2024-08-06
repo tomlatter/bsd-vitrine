@@ -1,15 +1,12 @@
-# Name Of The Site: Northern Sports Academy
-
+# Name Of The Site: B.S-D Bâton de Combat. Self-Défense
 ## Features of the project:
-* It's a website of A sports Academy.
-* There are few sections in the home page.
-* By clicking the nav items user can go to the section.
-* I have used swiper js for carousel.
-* For animation i have used framer motion.
-* For animation also used transform,transition. 
-* Added hover animation effect on few sections cards.
-* Also added a error element page.
+* Site web vitrine pour un club d'arts martiaux
 
-***
-### Here is the live link of the project:
-Click here: [Northern Sports Academy](https://react-task-d8d0a.web.app)
+## To install libs after git clone
+npm install
+
+## To run in local dev mode (view at http://localhost:5173/)
+npm run dev
+
+## To build for production (files compiled in /dist directory)
+npm run build

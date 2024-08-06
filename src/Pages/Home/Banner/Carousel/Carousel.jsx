@@ -27,7 +27,7 @@ const Carousel = () => {
             <SwiperSlide>
               <img
                 loading="lazy"
-                src="https://i.ibb.co/ZWxBmcX/football.jpg"
+                src="/src/assets/photos/carousel/1.jpg"
                 alt="football"
                 className="relative"
               />
@@ -35,57 +35,43 @@ const Carousel = () => {
             <SwiperSlide>
               <img
                 loading="lazy"
-                src="https://i.ibb.co/ncXXSFB/cricket.jpg"
+                src="/src/assets/photos/carousel/2.jpg"
                 alt="cricket"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 loading="lazy"
-                src="https://i.ibb.co/XsB8Sz0/tennis.jpg"
+                src="/src/assets/photos/carousel/3.jpg"
                 alt="tennis"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 loading="lazy"
-                src="https://i.ibb.co/jrsFT7h/badminton.jpg"
+                src="/src/assets/photos/carousel/4.jpg"
                 alt="badminton"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 loading="lazy"
-                src="https://i.ibb.co/YXmyL1y/rugby.jpg"
+                src="/src/assets/photos/carousel/5.jpg"
                 alt="rugby"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 loading="lazy"
-                src="https://i.ibb.co/W2wKzYt/baseball.jpg"
+                src="/src/assets/photos/carousel/6.jpg"
                 alt="baseball"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 loading="lazy"
-                src="https://i.ibb.co/3df9RTb/basketball.jpg"
-                alt="basketball"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                loading="lazy"
-                src="https://i.ibb.co/njFx9Pg/swimming.jpg"
-                alt="swimming"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                loading="lazy"
-                src="https://i.ibb.co/w051W72/beach-volleyball-6483905-1280-1.webp"
-                alt="volleyball"
+                src="/src/assets/photos/carousel/7.jpg"
+                alt="baseball"
               />
             </SwiperSlide>
           </Swiper>

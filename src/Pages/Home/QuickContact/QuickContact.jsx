@@ -8,7 +8,7 @@ const QuickContact = () => {
         <Container>
           <FadeInAnimation>
             <div
-              className="grid grid-cols-1 lg:grid-cols-3 rounded-lg px-12 py-24 bg-gradient-to-r from-rose-500 to-yellow-500  mt-10 container mx-auto gap-6 "
+              className="grid grid-cols-1 lg:grid-cols-3 rounded-lg px-12 py-24 bg-gradient-to-r from-majenta-500 to-purple-500  mt-10 container mx-auto gap-6 "
               data-aos="zoom-in"
             >
               <div className="flex items-center gap-4">
@@ -58,8 +58,8 @@ const QuickContact = () => {
                   </svg>
                 </div>
                 <div className="text-white ">
-                  <p className="font-normal ">We Are Open Sunday-Thursday</p>
-                  <p className="text-xl font-bold">8:00 am - 6:00 pm</p>
+                  <p className="font-normal ">Cours les lundis et jeudis soirs </p>
+                  <p className="text-xl font-bold">20h00 - 22h00</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -82,8 +82,8 @@ const QuickContact = () => {
                   </svg>
                 </div>
                 <div className="text-white">
-                  <p className="font-normal">Call Us For More Info</p>
-                  <p className="text-xl font-bold">+88 01778855220</p>
+                  <p className="font-normal">Contactez-nous pour un cours d'essai</p>
+                  <p className="text-xl font-bold">07 69 23 76 77</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -110,8 +110,8 @@ const QuickContact = () => {
                   </svg>
                 </div>
                 <div className="text-white">
-                  <p className="font-normal">Want to visit Us? our address</p>
-                  <p className="text-xl font-bold">R-8,Mirpur DOHS, Dhaka</p>
+                  <p className="font-normal">Adresse du Gymnase</p>
+                  <p className="text-xl font-bold">21 Bd de la Méditerranée, Toulouse</p>
                 </div>
               </div>
             </div>

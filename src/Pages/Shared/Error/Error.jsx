@@ -17,7 +17,7 @@ const Error = () => {
         <p className="mb-4">{error.message}</p>
         <Link
           to="/"
-          className="btn bg-amber-500 hover:bg-amber-600 mt-8 text-white border-0 transition-transform transform hover:scale-95"
+          className="btn bg-purple-500 hover:bg-purple-600 mt-8 text-white border-0 transition-transform transform hover:scale-95"
         >
           Go Home
         </Link>

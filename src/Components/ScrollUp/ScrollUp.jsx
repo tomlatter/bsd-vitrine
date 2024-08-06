@@ -28,7 +28,7 @@ const ScrollUp = () => {
       <div>
         {isVisible && (
           <button
-            className="fixed bottom-8 right-8  text-white px-3 py-3 text-xl  rounded bg-gradient-to-r from-red-500 to-yellow-500"
+            className="fixed bottom-8 right-8  text-white px-3 py-3 text-xl  rounded bg-gradient-to-r from-majenta-500 to-purple-500"
             onClick={scrollToTop}
           >
             <BsArrowUp />
