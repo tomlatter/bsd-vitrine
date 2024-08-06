@@ -2,28 +2,28 @@
     {
       "id": 1,
       "name": "Jean Louis Brinker",
-      "image": "/src/assets/photos/jb.jpg",
+      "image": "/assets/photos/jb.jpg",
       "designation": "Bâton de combat et Self-Défense",
       "disciplines": "Fondateur du B.S-D, Close-Combat Moniteur des Armées (renommé en TIOR), Boxe Anglaise, Ko-Budo, Ceinture Noire de Judo/Ju-Jitsu, Iaido, Jodo, Yoseikan Budo, Jogo Do Pau"
     },
     {
       "id": 2,
       "name": "Margaux Montagnon",
-      "image": "/src/assets/photos/mm.png",
+      "image": "/..src/assets/photos/mm.png",
       "designation": " Bâton de combat et Self-Défense",
       "disciplines": "Maître d'Armes - Brevet de Maître Bâtonniste, Ceinture Noire de B.S-D : Self-Défense à mains nues et Bâton de Combat, Diplômée Fédérale 2ème Degré Arts Martiaux UFOLEP"
     },
     {
       "id": 3,
       "name": "Richard Landry",
-      "image": "/src/assets/photos/rl.jpg",
+      "image": "/assets/photos/rl.jpg",
       "designation": "Self-Défense", 
       "disciplines": "Ceinture Noire de Judo, Ceinture Noire de B.S-D : Self-Défense à mains nues, Diplômé Fédéral 2ème Degré Arts Martiaux Fédération UFOLEP, Certificat de Qualification Professionnelle"
     },
     {
       "id": 4,
       "name": "Daniel Moulet",
-      "image": "/src/assets/photos/dm.jpg",
+      "image": "/assets/photos/dm.jpg",
       "designation": "Bâton de combat et Self-Défense",
       "disciplines": "Ceinture Noire de B.S-D : Self-Défense à mains nues et Bâton de Combat avec la mention 2ème Degré (Titre de Cordelier)"
     }

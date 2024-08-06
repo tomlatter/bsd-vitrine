@@ -3,42 +3,42 @@
       "id": 1,
       "name": "Self-Défense",
       "description": "Pour tous niveaux, apprenez les techniques les plus utiles, utilisées dans les Arts Martiaux et les Sports de combat.",
-      "image1": "/src/assets/photos/self.jpg",
+      "image1": "/assets/photos/self.jpg",
       "schedule": "Lundis 20h-22h"
     },
     {
       "id": 2,
       "name": "Bâton de combat",
       "description": "Entrainement technique et assauts avec bâtons longs en bois (rotin) d'environ 1m60.",
-      "image1": "/src/assets/photos/baton.jpg",
+      "image1": "/assets/photos/baton.jpg",
       "schedule": "Jeudis 20h-22h"
     },
     {
       "id": 3,
       "name": "Canne de défense",
       "description": "Entrainement technique et assauts avec cannes en bois (rotin) d'environ 1m10.",
-      "image1": "/src/assets/photos/sac.jpg",
+      "image1": "/assets/photos/sac.jpg",
       "schedule": "Jeudis 20h-22h"
     },
     {
       "id": 4,
       "name": "Combat au sol",
       "description": "Pour tous niveaux, apprenez les techniques les plus utiles, utilisées dans les Arts Martiaux et les Sports de combat.",
-      "image1": "/src/assets/photos/sol.jpg",
+      "image1": "/assets/photos/sol.jpg",
       "schedule": "Lundis 20h-22h"
     },
     {
       "id": 5,
       "name": "Combat pieds-poings",
       "description": "Pour tous niveaux, apprenez les techniques les plus utiles, utilisées dans les Arts Martiaux et les Sports de combat.",
-      "image1": "/src/assets/photos/piedspoing.jpg",
+      "image1": "/assets/photos/piedspoing.jpg",
       "schedule": "Lundis 20h-22h"
     },
     {
       "id": 6,
       "name": "Canne de combat",
       "description": "Combats avec cannes en mousse et PVC d'environ 1m10.",
-      "image1": "/src/assets/photos/mousse.jpg",
+      "image1": "/assets/photos/mousse.jpg",
       "schedule": "Jeudis 20h-22h"
     }
   ]
