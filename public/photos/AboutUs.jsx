@@ -38,14 +38,14 @@ const AboutUs = () => {
                       votre nom et votre âge.<br/>
                       Et précisez si c&#39;est pour la Self-Défense ou le Bâton de combat.
                       <br/><br/>
-                      Un T-shirt, un pantalon de
+                      Pour celà, un T-shirt, un pantalon de
                       survêtement et une paire de tennis suffisent.<br/>
                       Vous n&#39;êtes pas plongé(e) dans le bain
-                      directement. <br/>Un.e enseignant.e vous apprendra quelques techniques.<br/>
+                      directement. <br/>Un.e enseignant.e s&#39;occupera de vous et vous apprendra quelques techniques.<br/>
                       Et on répondra également à toutes vos questions.
                       <br/>
                       <br/>
-                      Pour continuer par la suite, un
+                      Si par la suite vous désirez continuer, un
                       certificat médical sera nécesaire.<br/>
                       Une cotisation vous sera également demandée.<br/>
                       <Link to="https://www.baton-self.com/fr/cours/cotisation" target="_blank" className="text-purple-500 font-semibold mt-2 underline">
@@ -63,15 +63,14 @@ const AboutUs = () => {
                   <img
                     className="md:max-w-md max-w-sm rounded-xl mx-auto"
                     loading="lazy"
-                    src="/photos/coursseniors.jpg"
+                    src="/photos/bouclier.jpg"
                     alt=""
                   />
-                  <br/>
                   <br/>
                   <img
                     className="md:max-w-md max-w-sm rounded-xl mx-auto"
                     loading="lazy"
-                    src="/photos/coursbaton2.jpg"
+                    src="/photos/coursbaton.jpg"
                     alt=""
                   />
                 </div>
