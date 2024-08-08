@@ -4,7 +4,7 @@ import FadeInAnimation from '../../../Components/FadeInAnimation/FadeInAnimation
 
 const QuickContact = () => {
     return (
-      <div className="dark:bg-gray-700  py-10 lg:pb-20" id="contactus">
+      <div className="dark:bg-gray-700  py-10 lg:pb-20" id="contact">
         <Container>
           <FadeInAnimation>
             <div

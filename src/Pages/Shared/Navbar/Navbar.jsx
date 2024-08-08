@@ -41,7 +41,7 @@ const Navbar = () => {
     <>
       <li>
         <a
-          href="#home"
+          href="#acceuil"
           className={activeNav === "#home" ? " active_link" : ""}
           onClick={() => setActiveNav("#home")}
         >
@@ -50,7 +50,7 @@ const Navbar = () => {
       </li>
       <li>
         <a
-          href="#programmes"
+          href="#disciplines"
           className={activeNav === "#programmes" ? " active_link" : ""}
           onClick={() => setActiveNav("#programmes")}
         >
@@ -59,7 +59,7 @@ const Navbar = () => {
       </li>
       <li>
         <a
-          href="#facilities"
+          href="#equipement"
           className={activeNav === "#facilities" ? " active_link" : ""}
           onClick={() => setActiveNav("#facilities")}
         >
@@ -68,7 +68,7 @@ const Navbar = () => {
       </li>
       <li>
         <a
-          href="#instructors"
+          href="#enseignants"
           className={activeNav === "#instructors" ? " active_link" : ""}
           onClick={() => setActiveNav("#instructors")}
         >
@@ -77,7 +77,7 @@ const Navbar = () => {
       </li>
       <li>
         <a
-          href="#aboutus"
+          href="#cours"
           className={activeNav === "#aboutus" ? " active_link" : ""}
           onClick={() => setActiveNav("#aboutus")}
         >
@@ -86,7 +86,7 @@ const Navbar = () => {
       </li>
       <li>
         <a
-          href="#contactus"
+          href="#contact"
           className={activeNav === "#contactus" ? " active_link" : ""}
           onClick={() => setActiveNav("#contactus")}
         >

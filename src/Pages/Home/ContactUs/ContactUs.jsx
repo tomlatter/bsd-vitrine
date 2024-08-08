@@ -9,7 +9,7 @@ const ContactUs = () => {
     return (
       <div
         className="dark:bg-gray-700 bg-purple-300 pb-10 lg:pb-20"
-        id="contactus"
+        id="contact"
       >
         <SectionHeader heading={"Contact Us"}></SectionHeader>
         <Container>

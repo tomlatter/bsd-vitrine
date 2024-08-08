@@ -10,7 +10,7 @@ const AboutUs = () => {
     return (
       <div
         className="dark:bg-gray-700 bg-purple-300 pb-10 lg:pb-20"
-        id="aboutus"
+        id="cours"
       >
         <SectionHeader heading={"Nos cours"}></SectionHeader>
         <Container>

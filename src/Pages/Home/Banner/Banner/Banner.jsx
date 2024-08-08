@@ -6,7 +6,7 @@ import backgroundImage from '../../../../assets/photos/fond.jpg';
 const Banner = () => {
     return (
       <>
-        <div id='home'
+        <div id='acceuil'
           className="hero min-h-screen !px-0"
           style={{
             backgroundImage: `url(${backgroundImage})`,
