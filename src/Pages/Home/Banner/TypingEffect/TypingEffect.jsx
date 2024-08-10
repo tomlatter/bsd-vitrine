@@ -26,7 +26,7 @@ const TypingEffect = () => {
           Cotisation annuelle à seulement 150€.
         </p><br />
         <a 
-          href="#programmes" onClick={() => setActiveNav("#programmes")} className="btn bg-transparent border-2 border-purple-500 text-white px-5 transition-all hover:scale-95 hover:bg-purple-500 hover:border-purple-500">
+          href="#disciplines" onClick={() => setActiveNav("#programmes")} className="btn bg-transparent border-2 border-purple-500 text-white px-5 transition-all hover:scale-95 hover:bg-purple-500 hover:border-purple-500">
           Découvrir
           
         </a>
