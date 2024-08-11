@@ -36,8 +36,15 @@ const Carousel = () => {
           <SwiperSlide>
             <img
               loading="lazy"
+              src={img4}
+              alt="Canne"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              loading="lazy"
               src={img1}
-              alt="football"
+              alt="Boxe"
               className="relative"
             />
           </SwiperSlide>
@@ -45,42 +52,35 @@ const Carousel = () => {
             <img
               loading="lazy"
               src={img2}
-              alt="cricket"
+              alt="Judo"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               loading="lazy"
               src={img3}
-              alt="tennis"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              loading="lazy"
-              src={img4}
-              alt="badminton"
+              alt="Karate"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               loading="lazy"
               src={img5}
-              alt="rugby"
+              alt="Savate"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               loading="lazy"
               src={img6}
-              alt="baseball"
+              alt="Combat"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               loading="lazy"
               src={img7}
-              alt="baseball"
+              alt="Batôn"
             />
           </SwiperSlide>
         </Swiper>
