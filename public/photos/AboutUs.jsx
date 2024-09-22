@@ -22,7 +22,7 @@ const AboutUs = () => {
                     className="md:max-w-md max-w-sm rounded-xl"
                     loading="lazy"
                     src="/photos/gymnase.png"
-                    alt=""
+                    alt="Gymnase Anatole France Toulouse"
                   />
                 </div>
                 <div>
@@ -64,14 +64,14 @@ const AboutUs = () => {
                     className="md:max-w-md max-w-sm rounded-xl mx-auto"
                     loading="lazy"
                     src="/photos/bouclier.jpg"
-                    alt=""
+                    alt="Cours de Self Defense Toulouse"
                   />
                   <br/>
                   <img
                     className="md:max-w-md max-w-sm rounded-xl mx-auto"
                     loading="lazy"
                     src="/photos/coursbaton.jpg"
-                    alt=""
+                    alt="Course de Bâton de Combat Toulouse"
                   />
                 </div>
                 <div>

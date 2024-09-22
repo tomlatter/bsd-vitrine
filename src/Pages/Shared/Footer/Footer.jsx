@@ -19,26 +19,26 @@ const Footer = () => {
     <div>
       <footer className="footer  py-14 px-10 bg-majenta-800 dark:bg-majenta-900 text-base-content">
         <aside>
-          <img loading="lazy" className="w-36 md:w-36" src={logo} />
+          <img title="Logo B.S-D Toulouse" alt="Logo B.S-D Toulouse" loading="lazy" className="w-36 md:w-36" src={logo} />
           <p className="-mt-3 ps-3.5 text-sm font-semibold text-slate-300 dark:text-white">
             
             
           </p>
           <div className="flex justify-center space-x-4 mt-5 py-4">
-            <Link to="https://www.facebook.com/Baton.Self" target="_blank">
-              <img className="w-8" src={facebook} alt="" />
+            <Link title="Facebook B.S-D" to="https://www.facebook.com/Baton.Self" target="_blank">
+              <img className="w-8" src={facebook} title="Facebook Logo" alt="Facebook Logo" />
+            </Link>
+            <Link title="Instagram B.S-D" to="#">
+              <img className="w-8" src={instagram} title="Instagram Logo" alt="Instagram Logo"/>
             </Link>
             <Link to="#">
-              <img className="w-8" src={instagram} alt="" />
+              <img className="w-8" src={whatsapp} title="WhatsApp Logo" alt="WhatsApp Logo" />
             </Link>
-            <Link to="#">
-              <img className="w-8" src={whatsapp} alt="" />
+            <Link  title="LinkedIn B.S-D" to="https://www.linkedin.com/in/jean-brinker-a9624284/" target="_blank">
+              <img className="w-8" src={linkedin} title="LinkedIn Logo" alt="LinkedIn Logo" />
             </Link>
-            <Link to="https://www.linkedin.com/in/jean-brinker-a9624284/" target="_blank">
-              <img className="w-8" src={linkedin} alt="" />
-            </Link>
-            <Link to="https://www.youtube.com/channel/UCnCFm5OJKFVqnmXFGvGWcnA" target="_blank">
-              <img className="w-8" src={youtube} alt="" />
+            <Link title="YouTube B.S-D" to="https://www.youtube.com/channel/UCnCFm5OJKFVqnmXFGvGWcnA" target="_blank">
+              <img className="w-8" src={youtube} title="YouTube Logo" alt="YouTube Logo" />
             </Link>
           </div>
         </aside>

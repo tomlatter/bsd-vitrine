@@ -100,7 +100,7 @@ const Navbar = () => {
     <>
       {/* for small display */}
       <div className="lg:hidden bg-purple-500 flex justify-center items-center py-2">
-        <img className="w-20" src={logo} alt="logo" />
+        <img className="w-20" src={logo} title="Logo Bâton de Combat. Self-Défense Toulouse" alt="Logo Bâton de Combat. Self-Défense Toulouse" />
       </div>
       <div
         className={`navbar top-0 transition-all ease-out duration-300  text-white lg:fixed z-50 py-3 md:px-8 ${
@@ -137,9 +137,9 @@ const Navbar = () => {
           </div>
           <Link to="/" className="cursor-pointer hidden md:block">
             {navbarBg !== "transparent" ? (
-              <img className="w-28" src={rlogo} />
+              <img className="w-28" src={rlogo} title="Logo Bâton de Combat. Self-Défense Toulouse" alt="Logo Bâton de Combat. Self-Défense Toulouse" />
             ) : (
-              <img className="w-28" src={logo} />
+              <img className="w-28" src={logo} title="Logo Bâton de Combat. Self-Défense Toulouse" alt="Logo Bâton de Combat. Self-Défense Toulouse" />
             )}
           </Link>
         </div>

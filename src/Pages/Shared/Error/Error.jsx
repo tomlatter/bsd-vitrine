@@ -10,7 +10,8 @@ const Error = () => {
           loading="lazy"
           className="w-2/5 mx-auto"
           src="https://cdn.dribbble.com/users/381530/screenshots/3949858/404.gif"
-          alt=""
+          alt="Load Error"
+          title="Load Error"
         />
       </div>
       <div className="text-center">

@@ -37,14 +37,14 @@ const Carousel = () => {
             <img
               loading="lazy"
               src={img4}
-              alt="Canne"
+              alt="Cours de canne de défense - Toulouse"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               loading="lazy"
               src={img1}
-              alt="Boxe"
+              alt="Cours de Boxe - Toulouse"
               className="relative"
             />
           </SwiperSlide>

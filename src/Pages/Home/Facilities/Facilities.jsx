@@ -38,7 +38,8 @@ const Facilities = () => {
               <div className="lg:w-1/2 p-1 md:p-2 relative group">
                 <div className="relative overflow-hidden rounded-lg">
                   <img
-                    alt="gallery"
+                    alt="Gymnase Anatole France Toulouse"
+                    title="Gymnase Anatole France Toulouse"
                     loading="lazy"
                     className="facilities_card_img"
                     src="/photos/gymnase.png"
@@ -54,7 +55,8 @@ const Facilities = () => {
               <div className="lg:w-1/2 p-1 md:p-2 relative group">
                 <div className="relative overflow-hidden rounded-lg">
                   <img
-                    alt="gallery"
+                    alt="Bâton de Combat Toulouse"
+                    title="Bâton de Combat Toulouse"
                     loading="lazy"
                     className="facilities_card_img"
                     src="/photos/baton4.jpg"
@@ -69,7 +71,8 @@ const Facilities = () => {
               <div className="w-full p-1 md:p-2 relative group">
                 <div className="relative overflow-hidden rounded-lg">
                   <img
-                    alt="gallery"
+                    alt="Boucliers de frappe - Self Défense Toulouse"
+                    title="Boucliers de frappe - Self Défense Toulouse"
                     loading="lazy"
                     className="facilities_card_img"
                     src="/photos/bouclier.jpg"
@@ -93,7 +96,8 @@ const Facilities = () => {
               <div className="w-full p-1 md:p-2 relative group">
                 <div className="relative overflow-hidden rounded-lg">
                   <img
-                    alt="gallery"
+                    alt="Protections Combat de bâton long - Toulouse"
+                    title="Protections Combat de bâton long - Toulouse"
                     loading="lazy"
                     className="facilities_card_img"
                     src="/photos/protections.jpg"
@@ -108,10 +112,11 @@ const Facilities = () => {
               <div className="lg:w-1/2 p-1 md:p-2 relative group">
                 <div className="relative overflow-hidden rounded-lg">
                   <img
-                    alt="gallery"
+                    alt="Tatamis - Tapis de Sol - Toulouse"
                     loading="lazy"
                     className="facilities_card_img"
                     src="/photos/tapis.jpg"
+                    title="Tatamis - Tapis de Sol - Toulouse"
                   />
                   <div className="facilities_card_overlay"></div>
                   <div className="absolute inset-0 text-white p-3 top-2/4 lg:top-2/4 md:top-3/4">
@@ -123,7 +128,8 @@ const Facilities = () => {
               <div className="lg:w-1/2 p-1 md:p-2 relative group">
                 <div className="relative overflow-hidden rounded-lg">
                   <img
-                    alt="gallery"
+                    title="Armes d'entrainement - Self-Défense Toulouse"
+                    alt="Armes d'entrainement"
                     loading="lazy"
                     className="facilities_card_img"
                     src="https://d2t6o06vr3cm40.cloudfront.net/2023/03/26/14/38/56/a1e14176-541b-4e92-bb37-44ede9180dc3/DSC04355.jpg"
