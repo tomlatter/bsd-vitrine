@@ -10,7 +10,8 @@ const InstructorsCard = ({staff}) => {
           <img
             className="w-96 h-96 object-cover hover:grayscale transition-all duration-300"
             src={image}
-            alt=""
+            alt={name}
+            title={name}
           />
         </figure>
         <div className="card-body text-majenta-800 dark:text-white">
