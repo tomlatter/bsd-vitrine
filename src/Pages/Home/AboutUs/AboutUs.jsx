@@ -21,8 +21,8 @@ const AboutUs = () => {
                   <img
                     className="md:max-w-md max-w-sm rounded-xl"
                     loading="lazy"
-                    src="/photos/gymnase.png"
-                    alt="Gymnase Anatole France Toulouse"
+                    src="/photos/groupe.jpg"
+                    alt="Groupe self défense Toulouse"
                   />
                 </div>
                 <div>

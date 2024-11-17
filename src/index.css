@@ -16,7 +16,7 @@
         @apply block h-full w-full object-cover object-center shadow-lg transition-transform transform scale-100 group-hover:scale-105 duration-300;
     }
     .facilities_card_overlay{
-        @apply absolute inset-0 bg-gradient-to-t from-black to-transparent;
+        @apply absolute inset-0 bg-gradient-to-t from-black/10 to-transparent;
     }
     .active_link{
         @apply text-purple-500 border-b-2 rounded-none border-b-purple-500;

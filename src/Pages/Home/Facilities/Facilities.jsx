@@ -45,7 +45,7 @@ const Facilities = () => {
                     src="/photos/gymnase.png"
                   />
                   <div className="facilities_card_overlay"></div>
-                  <div className="absolute inset-0 text-white p-3 top-2/4 md:top-3/4 lg:top-2/4">
+                  <div className="absolute inset-0 text-white p-3 top-3/4 md:top-3/4 lg:top-3/4">
                     <h4 className="text-xl font-semibold">Gymnase</h4>
                     <p>Avec parking gratuit et vestiaires</p>
                   </div>
@@ -59,12 +59,12 @@ const Facilities = () => {
                     title="Bâton de Combat Toulouse"
                     loading="lazy"
                     className="facilities_card_img"
-                    src="/photos/baton4.jpg"
+                    src="/photos/bouclier.jpg"
                   />
                   <div className="facilities_card_overlay"></div>
-                  <div className="absolute inset-0 text-white p-3 top-2/4 lg:top-2/4 md:top-3/4">
-                  <h4 className="text-xl font-semibold">Bâtons de combat</h4>
-                    <p>Bâtons longs en bois rotin</p>
+                  <div className="absolute inset-0 text-white p-3 top-3/4 lg:top-3/4 md:top-3/4">
+                    <h4 className="text-xl font-semibold">Equipement pieds-poing</h4>
+                    <p>Pattes d'ours, boucliers et gants de boxe</p>
                   </div>
                 </div>
               </div>
@@ -75,12 +75,12 @@ const Facilities = () => {
                     title="Boucliers de frappe - Self Défense Toulouse"
                     loading="lazy"
                     className="facilities_card_img"
-                    src="/photos/bouclier.jpg"
+                    src="/photos/baton4.jpg"
                   />
                   <div className="facilities_card_overlay"></div>
-                  <div className="absolute inset-0 text-white p-3 top-2/4 md:top-3/4">
-                    <h4 className="text-xl font-semibold">Equipement pieds-poing</h4>
-                    <p>Sacs de frappe, pattes d'ours, boucliers de frappe et gants de boxe</p>
+                  <div className="absolute inset-0 text-white p-3 top-3/4 md:top-3/4">
+                  <h4 className="text-xl font-semibold">Bâtons et cannes</h4>
+                    <p>Bâtons longs et cannes en bois rotin</p>
                   </div>
                 </div>
               </div>
@@ -103,7 +103,7 @@ const Facilities = () => {
                     src="/photos/protections.jpg"
                   />
                   <div className="facilities_card_overlay"></div>
-                  <div className="absolute inset-0 text-white p-3 top-2/4 md:top-3/4">
+                  <div className="absolute inset-0 text-white p-3 top-3/4 md:top-3/4">
                     <h4 className="text-xl font-semibold">Protections</h4>
                     <p>Casques, gants, plastrons et garde-jambes</p>
                   </div>
@@ -115,29 +115,29 @@ const Facilities = () => {
                     alt="Tatamis - Tapis de Sol - Toulouse"
                     loading="lazy"
                     className="facilities_card_img"
-                    src="/photos/tapis.jpg"
+                    src="/photos/tatamis.png"
                     title="Tatamis - Tapis de Sol - Toulouse"
                   />
                   <div className="facilities_card_overlay"></div>
-                  <div className="absolute inset-0 text-white p-3 top-2/4 lg:top-2/4 md:top-3/4">
-                    <h4 className="text-xl font-semibold">Tapis de sol</h4>
-                    <p>Pour travailler des clés et projections</p>
+                  <div className="absolute inset-0 text-white p-3 top-3/4 lg:top-3/4 md:top-3/4">
+                    <h4 className="text-xl font-semibold">Tatamis</h4>
+                    <p>Pour travailler des clés et projections au sol</p>
                   </div>
                 </div>
               </div>
               <div className="lg:w-1/2 p-1 md:p-2 relative group">
                 <div className="relative overflow-hidden rounded-lg">
                   <img
-                    title="Armes d'entrainement - Self-Défense Toulouse"
-                    alt="Armes d'entrainement"
+                    title="Sac de frappe - Toulouse"
+                    alt="Sac de frappe"
                     loading="lazy"
                     className="facilities_card_img"
-                    src="https://d2t6o06vr3cm40.cloudfront.net/2023/03/26/14/38/56/a1e14176-541b-4e92-bb37-44ede9180dc3/DSC04355.jpg"
+                    src="/photos/sacdefrappe.jpg"
                   />
                   <div className="facilities_card_overlay"></div>
-                  <div className="absolute inset-0 text-white p-3 top-2/4 lg:top-2/4 md:top-3/4">
-                    <h4 className="text-xl font-semibold">Armes d'entraînement</h4>
-                    <p>Couteaux et pistolets factices</p>
+                  <div className="absolute inset-0 text-white p-3 top-3/4 lg:top-3/4 md:top-3/4">
+                    <h4 className="text-xl font-semibold">Sac de frappe</h4>
+                    <p>Pour un entrainement intensif et varié</p>
                   </div>
                 </div>
               </div>
