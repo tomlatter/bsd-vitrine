@@ -48,7 +48,9 @@ const Baton = () => {
                     <Reavel>
                     <h2 className="font-bold text-2xl mb-4 dark:text-white text-slate-700">Origines</h2>
                     <p className="dark:text-white text-slate-700 mb-6 whitespace-pre-line">
-                        Le Bâton de Combat – Self-Défense (B.S-D) est une discipline moderne née en 1980 à Toulouse, enrichie en 1988 par l’intégration de techniques portugaises. Pratiqué avec un long bâton (1m55 à 1m60), il permet un travail à une ou deux mains. Non compétitif, le B.S-D a été présenté dans plusieurs galas d’arts martiaux aux côtés de champions olympiques et mondiaux.
+                        Le combat au bâton long existe partout dans le monde depuis que l’Homme existe.
+                        En France, dans les périodes violentes comme au moyen-âge, c’était un fidèle compagnon. Il aidait à marcher, descendre à flanc de montagne, gauler des fruits, passer à gué des rivières et surtout se défendre.
+                        Il était enseigné dans l’armée napoléonienne, puis quelques Maîtres bâtonnistes ont œuvrés en France au 19, 20 et 21ème siècle.
                     </p>
                     </Reavel>
 
@@ -57,11 +59,25 @@ const Baton = () => {
             </div>
             </FadeInAnimation>
 
+
+            <FadeInAnimation>
+            <div className="flex flex-col lg:flex-row justify-center items-start gap-10 px-6 max-w-5xl mx-auto">
+                    <Reavel>
+                    <p className="dark:text-white text-slate-700 mb- whitespace-pre-line">
+                        Le Bâton de Combat – Self-Défense (B.S-D) est une discipline moderne née en 1980 à Toulouse, enrichie en 1988 par l’intégration de techniques portugaises. 
+                        Spécialisé en combat au Bâton long (entre 1,50m et 1,60m), le B.S-D se rapproche des techniques d’épées à deux mains des chevaliers de notre époque médiévale, 
+                        doublé dans l’esprit, d’un subtil mélange de « Naginata » utilisé par les japonaises.
+                    </p>
+                    </Reavel>
+
+                </div>
+            </FadeInAnimation>
+
             <FadeInAnimation>
                 <div className="flex flex-col lg:flex-row justify-center items-start gap-10 px-6 max-w-5xl mx-auto">
             
                     <Reavel>
-                        <div className="italic text-lg text-purple-900 dark:text-purple-200 my-8 px-2">
+                        <div className="italic text-lg text-purple-900 dark:text-purple-200 my-2 px-2">
                             “À l’ombre des guerriers, de la noblesse d’épée, s’épanouit aussi la joute roturière. Expert bâtonnistes, Maîtres du marteau de forge, du fouet et de la fourche, s'expriment dans des débats campagnards mais néanmoins violents dans lesquels se règlent les conflits paysans. Cet art de la route isolée et de la ruelle sombre a contribué de façon décisive à l’élaboration des techniques à mains nues de la self-défense d’hier et d’aujourd’hui.”
                             <br />
                             <span className="block mt-2 text-sm not-italic">— Charlot & Denaud, Que sais-je, 1999</span>
@@ -86,7 +102,9 @@ const Baton = () => {
                     <Reavel>
                     <h2 className="font-bold text-2xl mb-4 dark:text-white text-slate-700">Le Bâton comme Art</h2>
                     <p className="dark:text-white text-slate-700 mb-3 whitespace-pre-line">
-                        Le combat au bâton est une pratique universelle, présente dans toutes les cultures. Des colporteurs aux paysans, des samouraïs aux forgerons, tous ont contribué à la richesse de cet art populaire et pragmatique. Dans le B.S-D, le bâton n’est pas seulement une arme : il devient une extension de l’esprit. Cette pratique ne se limite pas à un exercice physique ou esthétique — elle est conçue comme un art de vivre, un moyen d’expression et d’évolution personnelle.
+                        Le combat au bâton est une pratique universelle, présente dans toutes les cultures. Des colporteurs aux paysans, des samouraïs aux forgerons, tous ont contribué à la richesse de cet art populaire et pragmatique. Dans le B.S-D, le bâton n’est pas seulement une arme : il devient une extension de l’esprit. 
+                        Cette pratique ne se limite pas à un exercice physique ou esthétique — elle est conçue comme un art de vivre, un moyen d’expression et d’évolution personnelle.
+                         Non compétitif, le B.S-D a été présenté dans plusieurs galas d’arts martiaux aux côtés de champions olympiques et mondiaux.
                     </p>
                     </Reavel>
 
