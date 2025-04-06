@@ -100,7 +100,7 @@ const Facilities = () => {
                     title="Protections Combat de bâton long - Toulouse"
                     loading="lazy"
                     className="facilities_card_img"
-                    src="/photos/protections.jpg"
+                    src="/photos/baton-carousel/5.jpg"
                   />
                   <div className="facilities_card_overlay"></div>
                   <div className="absolute inset-0 text-white p-3 top-3/4 md:top-3/4">

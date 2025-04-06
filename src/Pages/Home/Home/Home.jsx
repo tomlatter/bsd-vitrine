@@ -7,6 +7,8 @@ import AboutUs from '../AboutUs/AboutUs';
 import ScrollUp from '../../../Components/ScrollUp/ScrollUp';
 import Testimonials from '../Testimonials/Testimonials';
 import QuickContact from '../QuickContact/QuickContact';
+import Livre from '../Livre/Livre';
+import Baton from '../Baton/Baton';
 
 const Home = () => {
     return (
@@ -16,6 +18,8 @@ const Home = () => {
             <Facilities/>
             <Instructors/>
             <AboutUs/>
+            <Livre/>
+            <Baton/>
             <QuickContact/>
             <ScrollUp/>
         </div>

@@ -86,6 +86,24 @@ const Navbar = () => {
       </li>
       <li>
         <a
+          href="#livre"
+          className={activeNav === "#livre" ? " active_link" : ""}
+          onClick={() => setActiveNav("#livre")}
+        >
+          Livre
+        </a>
+      </li>
+      <li>
+        <a
+          href="#baton"
+          className={activeNav === "#baton" ? " active_link" : ""}
+          onClick={() => setActiveNav("#baton")}
+        >
+          Bâton
+        </a>
+      </li>
+      <li>
+        <a
           href="#contact"
           className={activeNav === "#contactus" ? " active_link" : ""}
           onClick={() => setActiveNav("#contactus")}
