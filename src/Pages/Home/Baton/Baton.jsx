@@ -148,7 +148,9 @@ const Baton = () => {
 
                     <Reavel>
                     <div className="italic text-lg text-purple-900 dark:text-purple-200 my-8 px-2">
-                        “C’est seulement par l’entraide et les concessions mutuelles qu’un groupe peut atteindre l’harmonie et progresser.”
+                        “C'est par l'entraide et les concessions mutuelles qu'un organisme groupant
+                        des individus, en nombre grand ou petit, peut trouver sa pleine harmonie et
+                        réaliser des progrès sérieux.”
                         <br />
                         <span className="block mt-2 text-sm not-italic">— Jigoro Kano, fondateur du Judo</span>
                     </div>

@@ -13,6 +13,27 @@ const Navbar = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
   const [navbarBg, setNavbarBg] = useState("transparent");
 
+  const scrollToHash = () => {
+    const hash = window.location.hash;
+    if (hash) {
+      const id = hash.replace("#", "");
+      const el = document.getElementById(id);
+      if (el) {
+        const yOffset = -100; // adjust based on navbar height
+        const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }
+    }
+  };
+  
+  useEffect(() => {
+    // Wait a bit to ensure everything is rendered
+    const timeout = setTimeout(scrollToHash, 200);
+  
+    return () => clearTimeout(timeout);
+  }, []);
+  
+  
   /* control navbar bg */
   useEffect(() => {
     const handleScroll = () => {
@@ -42,8 +63,8 @@ const Navbar = () => {
       <li>
         <a
           href="#acceuil"
-          className={activeNav === "#home" ? " active_link" : ""}
-          onClick={() => setActiveNav("#home")}
+          className={activeNav === "#acceuil" ? " active_link" : ""}
+          onClick={() => setActiveNav("#acceuil")}
         >
           Acceuil
         </a>
@@ -78,8 +99,8 @@ const Navbar = () => {
       <li>
         <a
           href="#cours"
-          className={activeNav === "#aboutus" ? " active_link" : ""}
-          onClick={() => setActiveNav("#aboutus")}
+          className={activeNav === "#cours" ? " active_link" : ""}
+          onClick={() => setActiveNav("#cours")}
         >
           Cours
         </a>
