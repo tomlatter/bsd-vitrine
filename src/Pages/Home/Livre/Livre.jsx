@@ -38,7 +38,7 @@ const Livre = () => {
                     </p>
                     <p className="dark:text-white text-slate-700 mb-6 whitespace-pre-line">
                       En 1970, de retour à la vie civile, passionné par les arts martiaux et les sports de combat,
-                      il pratique tour à tour le Karaté, l’Iaïdo, le Jodo, le Yoseikan-budo, le Judo et le Ju-Jitsu.
+                      il pratique tour à tour le Ko-budo, le Judo, le Ju-Jitsu, l’Iaïdo, le Jodo et le Yoseikan-budo.
                       En 1985 il créé une école martiale française : le B.S-D (Bâton de combat – Self-Défense).
                     </p>
                     <p className="dark:text-white text-slate-700 mb-6 whitespace-pre-line">
