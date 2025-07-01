@@ -35,22 +35,24 @@ const Facilities = () => {
               whileInView="animate"
               viewport={{ once: true }}
             >
-              <div className="lg:w-1/2 p-1 md:p-2 relative group">
-                <div className="relative overflow-hidden rounded-lg">
-                  <img
-                    alt="Gymnase Anatole France Toulouse"
-                    title="Gymnase Anatole France Toulouse"
-                    loading="lazy"
-                    className="facilities_card_img"
-                    src="/photos/gymnase.png"
-                  />
-                  <div className="facilities_card_overlay"></div>
-                  <div className="absolute inset-0 text-white p-3 top-3/4 md:top-3/4 lg:top-3/4">
-                    <h4 className="text-xl font-semibold">Gymnase</h4>
-                    <p>Avec parking gratuit et vestiaires</p>
-                  </div>
-                </div>
+            <div className="lg:w-1/2 p-1 md:p-2 relative group">
+              <div className="relative overflow-hidden rounded-lg">
+                <img
+                  alt="Gymnase Anatole France Toulouse"
+                  title="Gymnase Anatole France Toulouse"
+                  loading="lazy"
+                  className="facilities_card_img"
+                  src="/photos/gymnase.png"
+                />
+
+                {/* Overlay covering bottom quarter */}
+                <div className="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-b from-transparent to-black/70 flex flex-col justify-center px-4">
+                <h4 className="text-white text-2xl md:text-3xl font-bold drop-shadow-lg">Gymnase</h4>
+                <p className="text-white text-l md:text-xl drop-shadow-md">Avec parking gratuit et vestiaires</p>
               </div>
+              </div>
+            </div>
+
 
               <div className="lg:w-1/2 p-1 md:p-2 relative group">
                 <div className="relative overflow-hidden rounded-lg">
@@ -61,10 +63,9 @@ const Facilities = () => {
                     className="facilities_card_img"
                     src="/photos/bouclier.jpg"
                   />
-                  <div className="facilities_card_overlay"></div>
-                  <div className="absolute inset-0 text-white p-3 top-3/4 lg:top-3/4 md:top-3/4">
-                    <h4 className="text-xl font-semibold">Equipement pieds-poing</h4>
-                    <p>Pattes d'ours, boucliers et gants de boxe</p>
+                  <div className="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-b from-transparent to-black/70 flex flex-col justify-center px-4">
+                    <h4 className="text-white text-2xl md:text-3xl font-bold">Equipement pieds-poing</h4>
+                    <p className="text-white text-l md:text-xl drop-shadow-md">Pattes d'ours, boucliers et gants de boxe</p>
                   </div>
                 </div>
               </div>
@@ -77,10 +78,9 @@ const Facilities = () => {
                     className="facilities_card_img"
                     src="/photos/baton4.jpg"
                   />
-                  <div className="facilities_card_overlay"></div>
-                  <div className="absolute inset-0 text-white p-3 top-3/4 md:top-3/4">
-                  <h4 className="text-xl font-semibold">Bâtons et cannes</h4>
-                    <p>Bâtons longs et cannes en bois rotin</p>
+                  <div className="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-b from-transparent to-black/70 flex flex-col justify-center px-4">
+                  <h4 className="text-white text-2xl md:text-3xl font-bold">Bâtons et cannes</h4>
+                    <p className="text-white text-l md:text-xl drop-shadow-md">Bâtons longs et cannes en bois rotin</p>
                   </div>
                 </div>
               </div>
@@ -102,10 +102,9 @@ const Facilities = () => {
                     className="facilities_card_img"
                     src="/photos/baton-carousel/5.jpg"
                   />
-                  <div className="facilities_card_overlay"></div>
-                  <div className="absolute inset-0 text-white p-3 top-3/4 md:top-3/4">
-                    <h4 className="text-xl font-semibold">Protections</h4>
-                    <p>Casques, gants, plastrons et garde-jambes</p>
+                  <div className="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-b from-transparent to-black/70 flex flex-col justify-center px-4">
+                    <h4 className="text-white text-2xl md:text-3xl font-bold">Protections</h4>
+                    <p className="text-white text-l md:text-xl drop-shadow-md">Casques, gants, plastrons et garde-jambes</p>
                   </div>
                 </div>
               </div>
@@ -115,13 +114,12 @@ const Facilities = () => {
                     alt="Tatamis - Tapis de Sol - Toulouse"
                     loading="lazy"
                     className="facilities_card_img"
-                    src="/photos/tatamis.png"
+                    src="/photos/tatamis.jpg"
                     title="Tatamis - Tapis de Sol - Toulouse"
                   />
-                  <div className="facilities_card_overlay"></div>
-                  <div className="absolute inset-0 text-white p-3 top-3/4 lg:top-3/4 md:top-3/4">
-                    <h4 className="text-xl font-semibold">Tatamis</h4>
-                    <p>Pour travailler des clés et projections au sol</p>
+                  <div className="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-b from-transparent to-black/70 flex flex-col justify-center px-4">
+                    <h3 className="text-white text-2xl md:text-3xl font-bold">Tatamis</h3>
+                    <p className="text-white text-l md:text-xl drop-shadow-md">Pour travailler des clés et projections au sol</p>
                   </div>
                 </div>
               </div>
@@ -134,10 +132,9 @@ const Facilities = () => {
                     className="facilities_card_img"
                     src="/photos/sacdefrappe.jpg"
                   />
-                  <div className="facilities_card_overlay"></div>
-                  <div className="absolute inset-0 text-white p-3 top-3/4 lg:top-3/4 md:top-3/4">
-                    <h4 className="text-xl font-semibold">Sac de frappe</h4>
-                    <p>Pour un entrainement intensif et varié</p>
+                  <div className="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-b from-transparent to-black/70 flex flex-col justify-center px-4">
+                    <h4 className="text-white text-2xl md:text-3xl font-bold">Sac de frappe</h4>
+                    <p className="text-white text-l md:text-xl drop-shadow-md">Pour un entrainement intensif et varié</p>
                   </div>
                 </div>
               </div>

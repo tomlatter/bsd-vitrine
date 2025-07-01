@@ -4,7 +4,7 @@
       "name": "Jean Louis",
       "image": "/photos/jb.jpg",
       "designation": "Bâton de combat et Self-Défense",
-      "disciplines": "Fondateur du B.S-D, Close-Combat Moniteur des Armées (renommé en TIOR), Boxe Anglaise, Ko-Budo, Ceinture Noire de Judo/Ju-Jitsu, Iaido, Jodo, Yoseikan Budo, Jogo Do Pau"
+      "disciplines": "Fondateur du B.S-D et Gardien de la voie - Close-Combat Moniteur des Armées (renommé en TIOR), Boxe Anglaise, Ko-Budo, Ceinture Noire de Judo/Ju-Jitsu, Iaido, Jodo, Yoseikan Budo, Jogo Do Pau"
     },
     {
       "id": 2,
@@ -14,17 +14,17 @@
       "disciplines": "Maître d'Armes - Brevet de Maître Bâtonniste, Ceinture Noire de B.S-D : Self-Défense à mains nues et Bâton de Combat, Diplômée Fédérale 2ème Degré Arts Martiaux UFOLEP"
     },
     {
-      "id": 3,
-      "name": "Richard",
-      "image": "/photos/rl.jpg",
-      "designation": "Self-Défense", 
-      "disciplines": "Ceinture Noire de Judo, Ceinture Noire de B.S-D : Self-Défense à mains nues, Diplômé Fédéral 2ème Degré Arts Martiaux Fédération UFOLEP, Certificat de Qualification Professionnelle"
-    },
-    {
       "id": 4,
       "name": "Daniel",
       "image": "/photos/dm3.jpg",
       "designation": "Bâton de combat et Self-Défense",
-      "disciplines": "Maître d'Armes - Brevet de Maître Bâtonniste, Ceinture Noire de B.S-D : Self-Défense à mains nues et Bâton de Combat"
+      "disciplines": "Maître d'Armes et Gardien du B.S-D - Brevet de Maître Bâtonniste, Ceinture Noire de B.S-D : Self-Défense à mains nues et Bâton de Combat"
+    },
+    {
+      "id": 3,
+      "name": "Julia",
+      "image": "/photos/jm.jpg",
+      "designation": "Self-Défense", 
+      "disciplines": "Ceinture Noire de B.S-D : Self-Défense à mains nues, niveau Instructrice"
     }
   ]
