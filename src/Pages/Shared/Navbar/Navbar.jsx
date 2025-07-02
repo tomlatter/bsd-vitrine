@@ -185,10 +185,8 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul
             className={`menu menu-horizontal px-1 font-semibold ${
-              navbarBg !== "transparent"
-                ? "text-black"
-                : "text-white"
-            } `}
+              navbarBg !== "transparent" ? "text-black" : "text-white"
+            } text-xl`}
           >
             {navOptions}
           </ul>

@@ -47,22 +47,38 @@ const Footer = () => {
             Contact
           </header>
           <div className="flex flex-col space-y-3 text-base text-white">
-            <p className="flex items-center gap-1">
-              <FaMapMarkerAlt /> 
-              Gymnase Anatole France<br/>
-              21 Bd de la Méditerranée<br/>
-              31400 Toulouse
-            </p>
-            <p className="flex items-center gap-1">
+            <a
+              href="https://maps.app.goo.gl/u1yFAogCkcS6g1Eg6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-start gap-1 hover:underline"
+            >
+              <FaMapMarkerAlt className="mt-1" />
+              <span>
+                Gymnase Anatole France<br />
+                21 Bd de la Méditerranée<br />
+                31400 Toulouse
+              </span>
+            </a>
+
+            <a
+              href="tel:0769237677"
+              className="flex items-center gap-1 hover:underline"
+            >
               <FaPhoneAlt />
               07 69 23 76 77
-            </p>
-            <p className="flex items-center gap-1">
+            </a>
+
+            <a
+              href="mailto:bsd.selfdefense@gmail.com"
+              className="flex items-center gap-1 hover:underline"
+            >
               <FaEnvelope />
-              bsd.baton@gmail.com
-            </p>
+              bsd.selfdefense@gmail.com
+            </a>
           </div>
         </nav>
+
         <nav>
           <header className="font-bold text-xl mb-3 text-white">
             Liens rapides

@@ -8,9 +8,10 @@ const QuickContact = () => {
         <Container>
           <FadeInAnimation>
             <div
-              className="grid grid-cols-1 lg:grid-cols-3 rounded-lg px-12 py-24 bg-gradient-to-r from-majenta-500 to-purple-500  mt-10 container mx-auto gap-6 "
+              className="grid grid-cols-1 lg:grid-cols-4 rounded-lg px-12 py-24 bg-gradient-to-r from-majenta-500 to-purple-500 mt-10 container mx-auto gap-6"
               data-aos="zoom-in"
             >
+
               <div className="flex items-center gap-4">
                 <div>
                   <svg
@@ -62,6 +63,10 @@ const QuickContact = () => {
                   <p className="text-xl font-bold">20h00 - 22h00</p>
                 </div>
               </div>
+              <a
+              href="tel:0769237677"
+              className="flex items-center gap-1 hover:underline"
+            >
               <div className="flex items-center gap-4">
                 <div>
                   <svg
@@ -86,7 +91,15 @@ const QuickContact = () => {
                   <p className="text-xl font-bold">07 69 23 76 77</p>
                 </div>
               </div>
+              </a>
+               <a
+              href="https://maps.app.goo.gl/u1yFAogCkcS6g1Eg6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-start gap-1 hover:underline"
+            >
               <div className="flex items-center gap-4">
+               
                 <div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -114,6 +127,33 @@ const QuickContact = () => {
                   <p className="text-xl font-bold">21 Bd de la Méditerranée, Toulouse</p>
                 </div>
               </div>
+                </a>
+                <a
+                href="mailto:bsd.selfdefense@gmail.com"
+                className="flex items-start gap-1 hover:underline"
+              >
+                <div className="flex items-center gap-4">
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="41"
+                      height="41"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M2 4h20v16H2V4zm2 2v.511l8 5.333 8-5.333V6H4zm16 2.823l-7.445 4.965a1 1 0 0 1-1.11 0L4 8.823V18h16V8.823z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                  <div className="text-white">
+                    <p className="font-normal">Email</p>
+                    <p className="text-xl font-bold">bsd.selfdefense@gmail.com</p>
+                  </div>
+                </div>
+              </a>
+
             </div>
           </FadeInAnimation>
         </Container>

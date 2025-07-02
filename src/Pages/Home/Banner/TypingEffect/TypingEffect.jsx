@@ -10,7 +10,7 @@ const TypingEffect = () => {
     })
     return (
       <div className="text-white">
-        <h2 className="md:text-6xl text-4xl font-bold">
+        <h2 className="md:text-6xl text-4xl font-bold mt-8">
           Bâton de Combat.<br/>Self-Défense.
         </h2><br/>
         <h4 className="md:text-4xl text-3xl my-5 font-semibold bg-purple-500 md:w-4/6 w-11/12 rounded mx-auto py-2.5 px-1">

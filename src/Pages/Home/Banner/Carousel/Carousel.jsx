@@ -20,10 +20,10 @@ import img19 from '/photos/carousel/19.jpg';
 const Carousel = () => {
   return (
     <>
-      <div className="container">
+      <div className="container mt-14">
         <Swiper
           spaceBetween={30}
-          autoplay={{ delay: 2300, disableOnInteraction: false }}
+          autoplay={{ delay: 1200, disableOnInteraction: false }}
           speed={800}
           effect={"coverflow"}
           grabCursor={true}

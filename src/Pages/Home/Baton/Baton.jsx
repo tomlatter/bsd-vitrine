@@ -9,7 +9,7 @@ import Slider from "react-slick";
     dots: true,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 2500,
     speed: 600,
     slidesToShow: 1,
     slidesToScroll: 1,
