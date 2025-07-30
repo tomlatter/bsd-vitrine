@@ -8,7 +8,7 @@ const QuickContact = () => {
         <Container>
           <FadeInAnimation>
             <div
-              className="grid grid-cols-1 lg:grid-cols-4 rounded-lg px-12 py-24 bg-gradient-to-r from-majenta-500 to-purple-500 mt-10 container mx-auto gap-6"
+              className="grid grid-cols-1 lg:grid-cols-4 rounded-lg px-4 lg:px-12 py-24 bg-gradient-to-r from-majenta-500 to-purple-500 mt-10 container mx-auto gap-6"
               data-aos="zoom-in"
             >
 
