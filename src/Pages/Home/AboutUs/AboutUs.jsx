@@ -123,16 +123,14 @@ const AboutUs = () => {
                   <div>
                     <p className="dark:text-white text-slate-700">
                       <Reavel>
-                        <p className="font-bold text-xl mb-2">Samedis 14h - 16h</p>
+                        <p className="font-bold text-xl mb-2">Samedis 14h - 18h</p>
                       </Reavel>
                       <ul className="list-disc ps-6">
                         <Reavel>
                           {" "}
                           <li>
-                          <b>Cours de Self-défense pour séniors</b>. <br/>
-                          Apprendre à se défendre à mains nues.<br/>
-                            Accessible aux non-licenciés. <br/>
-                            Cours que un samedi sur deux.
+                          Cours suivant la disponibilité des enseignants et le nombre de participants. <br/>
+                          Certains samedis reservés à la formation des Enseignants et Enseignantes.
                           </li>
                         </Reavel>
                       </ul>

@@ -137,14 +137,42 @@ const Navbar = () => {
   );
   return (
     <>
-      {/* for small display */}
-      <div className="lg:hidden bg-purple-500 flex justify-center items-center py-2">
-        <img className="w-20" src={logo} title="Logo Bâton de Combat. Self-Défense Toulouse" alt="Logo Bâton de Combat. Self-Défense Toulouse" />
+      {/* Floating hamburger menu (mobile only) */}
+      <div className="fixed top-4 left-4 z-50 lg:hidden">
+        <div className="dropdown">
+          <label
+            tabIndex={0}
+            className="btn btn-circle bg-purple-500 hover:bg-majenta-500 shadow-lg"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6 text-white"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </label>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white text-black rounded-box w-52"
+          >
+            {navOptions}
+          </ul>
+        </div>
       </div>
+
+      {/* Full navbar (desktop only) */}
       <div
-        className={`navbar top-0 transition-all ease-out duration-300  text-white lg:fixed z-50 py-3 md:px-8 ${
-          navbarBg !== "transparent" ? "navbar_bg" : "lg:py-4 py-5"
-        }`}
+        className={`navbar top-0 transition-all ease-out duration-300 text-white 
+          hidden lg:flex fixed w-full z-40 py-3 md:px-8 
+          ${navbarBg !== "transparent" ? "navbar_bg" : "lg:py-4 py-5"}`}
       >
         <div className="navbar-start">
           <div className="dropdown">
@@ -174,26 +202,36 @@ const Navbar = () => {
               {navOptions}
             </ul>
           </div>
-          <Link to="/" className="cursor-pointer hidden md:block">
+
+          {/* ✅ Logo - smaller on mobile, larger on desktop */}
+          <Link to="/" className="cursor-pointer ml-auto lg:ml-0">
             {navbarBg !== "transparent" ? (
-              <img className="w-28" src={rlogo} title="Logo Bâton de Combat. Self-Défense Toulouse" alt="Logo Bâton de Combat. Self-Défense Toulouse" />
+              <img
+                className="w-12 lg:w-28"  // ⬅️ Smaller on mobile
+                src={rlogo}
+                alt="Logo Bâton de Combat. Self-Défense Toulouse"
+              />
             ) : (
-              <img className="w-28" src={logo} title="Logo Bâton de Combat. Self-Défense Toulouse" alt="Logo Bâton de Combat. Self-Défense Toulouse" />
+              <img
+                className="w-12 lg:w-28"  // ⬅️ Smaller on mobile
+                src={logo}
+                alt="Logo Bâton de Combat. Self-Défense Toulouse"
+              />
             )}
           </Link>
         </div>
+
         <div className="navbar-center hidden lg:flex">
           <ul
-            className={`menu menu-horizontal px-1 font-semibold ${
-              navbarBg !== "transparent" ? "text-black" : "text-white"
-            } text-xl`}
+            className={`menu menu-horizontal px-1 font-semibold ${navbarBg !== "transparent" ? "text-black" : "text-white"
+              } text-xl`}
           >
             {navOptions}
           </ul>
         </div>
         <div className="navbar-end">
           <div className="flex justify-center relative w-fit items-center rounded-full">
-            
+
             <div className="absolute inset-0 z-0 flex dark:justify-end justify-start">
               <motion.span
                 layout
