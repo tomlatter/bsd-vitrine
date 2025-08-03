@@ -16,7 +16,7 @@ const AboutUs = () => {
         <Container>
           <div className="grid grid-cols-1 gap-10">
             <FadeInAnimation>
-              <div className="flex flex-col lg:flex-row-reverse justify-center items-center gap-10">
+              <div className="flex flex-col lg:flex-row-reverse justify-center items-center gap-12">
                 <div className="">
                   <img
                     className="md:max-w-md max-w-sm rounded-xl"
@@ -27,7 +27,7 @@ const AboutUs = () => {
                 </div>
                 <div>
                   <Reavel>
-                    <p className="dark:text-white text-slate-700">
+                    <p className="text-lg leading-relaxed text-slate-700 dark:text-white">
                     <br/>
                     <Reavel>
                       <p className="font-bold text-xl mb-2">Cours d'essai gratuit</p>
@@ -58,7 +58,7 @@ const AboutUs = () => {
               </div>
             </FadeInAnimation>
             <FadeInAnimation>
-              <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
+              <div className="flex flex-col lg:flex-row justify-center items-center gap-12">
                 <div>
                   <img
                     className="md:max-w-md max-w-sm rounded-xl mx-auto"
@@ -76,7 +76,7 @@ const AboutUs = () => {
                   />
                 </div>
                 <div>
-                  <p className="dark:text-white text-slate-700">
+                  <p className="text-lg leading-relaxed text-slate-700 dark:text-white">
                     <Reavel>
                       <p className="font-bold text-xl mb-2">Lundis 20h - 22h</p>
                     </Reavel>
@@ -96,7 +96,8 @@ const AboutUs = () => {
                     </ul>
                     </p>
                   <br/>
-                  <p className="dark:text-white text-slate-700">
+                  <br/>
+                    <p className="text-lg leading-relaxed text-slate-700 dark:text-white">
                     <Reavel>
                       <p className="font-bold text-xl mb-2">Jeudis 20h - 22h</p>
                     </Reavel>
@@ -120,8 +121,9 @@ const AboutUs = () => {
                     </ul>
                   </p>
                   <br/>
+                  <br/>
                   <div>
-                    <p className="dark:text-white text-slate-700">
+                    <p className="text-lg leading-relaxed text-slate-700 dark:text-white">
                       <Reavel>
                         <p className="font-bold text-xl mb-2">Samedis 14h - 18h</p>
                       </Reavel>
@@ -148,7 +150,8 @@ const AboutUs = () => {
                       <br/> Créé à Toulouse en 1984 par Maître Jean Louis Brinker.
                         <br/>
                         <Link to="https://www.baton-self.fr" target="_blank" className="text-purple-500 font-semibold mt-2 underline">
-                          <span className="text-purple-500">Plus d'informations sur le site officiel du B.S-D</span>
+                          <span  className="inline-block mt-4 px-5 py-3 bg-gradient-to-r from-majenta-500 to-purple-500 text-white font-semibold rounded-lg shadow-md hover:opacity-90 transition">
+                            Visitez le site officiel du B.S-D</span>
                         </Link>
                       </p>
                     </Reavel>

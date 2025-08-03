@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import logo from "../../../assets/logo/logo.png";
 import rlogo from "../../../assets/logo/rlogo.png";
 import useReadingProgress from "../../../Hooks/useReadingProgress";
+import ufolepLogo from "../../../assets/logo/ufolep.png";
 
 const Navbar = () => {
   const user = null;
@@ -142,7 +143,7 @@ const Navbar = () => {
         <div className="dropdown">
           <label
             tabIndex={0}
-            className="btn btn-circle bg-purple-500 hover:bg-majenta-500 shadow-lg"
+            className="text-white px-3 py-3 text-xl rounded bg-gradient-to-r from-majenta-500 to-purple-500 shadow-lg cursor-pointer flex items-center justify-center"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -161,7 +162,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white text-black rounded-box w-52"
+            className="menu menu-lg dropdown-content mt-3 z-[1] p-2 shadow bg-white text-black  w-52 text-lg"
           >
             {navOptions}
           </ul>
@@ -175,33 +176,6 @@ const Navbar = () => {
           ${navbarBg !== "transparent" ? "navbar_bg" : "lg:py-4 py-5"}`}
       >
         <div className="navbar-start">
-          <div className="dropdown">
-            <label
-              tabIndex={0}
-              className="btn btn-ghost bg-purple-500 lg:hidden hover:bg-majenta-500"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
-            </label>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-purple-500 dark:bg-gray-700 rounded-box w-52"
-            >
-              {navOptions}
-            </ul>
-          </div>
 
           {/* ✅ Logo - smaller on mobile, larger on desktop */}
           <Link to="/" className="cursor-pointer ml-auto lg:ml-0">
@@ -229,17 +203,15 @@ const Navbar = () => {
             {navOptions}
           </ul>
         </div>
-        <div className="navbar-end">
-          <div className="flex justify-center relative w-fit items-center rounded-full">
-
-            <div className="absolute inset-0 z-0 flex dark:justify-end justify-start">
-              <motion.span
-                layout
-                transition={{ type: "spring", damping: 15, stiffness: 250 }}
-                className="h-full w-1/2 rounded-full bg-gradient-to-r from-majenta-500 to-purple-500"
-              ></motion.span>
-            </div>
-          </div>
+        <div className="navbar-end flex items-center gap-4">
+          {/* Show logo only when navbar is transparent */}
+          {navbarBg === "transparent" && (
+            <img
+              src={ufolepLogo}
+              alt="Ufolep Logo"
+              className="w-56 h-auto mr-0"
+            />
+          )}
         </div>
         <span
           className="absolute bg-gradient-to-r from-majenta-500 via-purple-500 to-transparent h-1 w-full bottom-0"

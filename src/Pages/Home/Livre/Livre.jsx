@@ -54,10 +54,9 @@ const Livre = () => {
                     <a
                       href="/docs/le-griot-fustigeur.pdf"
                       download
-                      className="inline-flex items-center gap-2 bg-purple-600 text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-purple-700 transition"
-                    >
-                      <FileText size={20} />
-                      Télécharger le PDF
+                      className="inline-block mt-4 px-5 py-3 bg-gradient-to-r from-majenta-500 to-purple-500 text-white text-lg font-semibold rounded-lg shadow-md hover:opacity-90 transition">
+                    
+                      Télécharger le Livre
                     </a>
                   </Reavel>
                 </div>
