@@ -170,13 +170,25 @@ const Baton = () => {
 
             <FadeInAnimation>
                 <div className="flex flex-col lg:flex-row justify-center items-start gap-10 px-6 max-w-5xl mx-auto">
-            
-                        <div className="italic text-lg text-purple-900 dark:text-purple-200 my-4 px-2">
-                            “Éduquer le corps aux techniques martiales, c’est éveiller l’esprit à la non-violence sous toutes ses formes.”
-                        <br />
-                        <span className="block mt-2 text-sm not-italic">— La devise philosophique du BSD, JL Brinker, fondateur du BSD</span>
-                        </div>
+                    <div className="my-8 px-14 text-left max-w-3xl mx-auto">
+                        {/* Quote */}
+                        <p className="font-montserrat text-[#511185] text-xl md:text-3xl font-light leading-relaxed md:leading-[2.9rem] mb-2">
+                        “Éduquer le corps aux techniques martiales, c’est éveiller l’esprit à la
+                        non-violence sous toutes ses formes.”
+                        </p>
+
+                        {/* Author */}
+                        <p className="font-lato text-[#3f3f3f] tracking-[3px] uppercase font-normal text-base md:text-lg mt-5">
+                        JEAN LOUIS BRINKER
+                        </p>
+
+                        {/* Title */}
+                        <p className="font-lato text-[#4a4a4a] font-light text-md md:text-base mt-1">
+                        Fondateur du B.S-D
+                        </p>
+                    </div>
                 </div>
+
             </FadeInAnimation>
 
 

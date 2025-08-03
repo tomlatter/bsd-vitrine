@@ -146,9 +146,13 @@ const AboutUs = () => {
                 <div>
                   <div className="dark:text-white text-slate-700">
                     <Reavel>
-                      <p className="font-bold text-xl mb-2" style={{textAlign: "center"}}>Le B.S-D Bâton de Combat. Self-Défense est un art martial français.
-                      <br/> Créé à Toulouse en 1984 par Maître Jean Louis Brinker.
-                        <br/>
+                      <p 
+                          className="text-base text-xl md:text-2xl leading-relaxed text-slate-700 dark:text-slate-300 text-center"
+                        >
+                          Le B.S-D Bâton de Combat. Self-Défense est un art martial français.
+                          <br/> 
+                          Créé à Toulouse en 1984 par Maître Jean Louis Brinker.
+                          <br/>
                         <Link to="https://www.baton-self.fr" target="_blank" className="text-purple-500 font-semibold mt-2 underline">
                           <span  className="inline-block mt-4 px-5 py-3 bg-gradient-to-r from-majenta-500 to-purple-500 text-white font-semibold rounded-lg shadow-md hover:opacity-90 transition">
                             Visitez le site officiel du B.S-D</span>

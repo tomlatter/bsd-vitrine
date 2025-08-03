@@ -15,14 +15,20 @@ const Livre = () => {
             <div className="flex flex-col lg:flex-row justify-center items-start gap-10 px-6 max-w-5xl mx-auto">
               <div className="p-4">
                 <img
-                  className="rounded-xl shadow-2xl mx-auto w-72 lg:w-80"
+                  className="rounded-xl shadow-2xl mx-auto w-72 lg:w-70"
                   loading="lazy"
                   src="/photos/legriot.jpg"
                   alt="Couverture du livre"
                 />
+                <img
+                  className="rounded-xl shadow-2xl mx-auto w-72 lg:w-70 my-12"
+                  loading="lazy"
+                  src="/photos/2legriot.jpg"
+                  alt="Dos du livre"
+                />
               </div>
 
-              <div className="text-center lg:text-left">
+              <div className="text-center lg:text-left mt-12">
                 <div className="max-w-prose mx-auto">
                   <Reavel>
                     <h2 className="font-bold text-2xl mb-4 dark:text-white text-slate-700">
@@ -30,18 +36,18 @@ const Livre = () => {
                     </h2>
                   </Reavel>
                   <Reavel>
-                    <p className="dark:text-white text-slate-700 mb-6 whitespace-pre-line">
+                    <p className="text-xl leading-relaxed dark:text-white text-slate-700 mb-6 whitespace-pre-line">
                       Jean Brinker est né en 1947. Surnommé « Jean-Louis » par son grand-père maternel
                       qui le recueille à l'adolescence, celui-ci l'encourage dès l'âge de 16 ans à pratiquer
                       la boxe anglaise pour canaliser son agressivité. Engagé dans l'armée française à 18 ans,
                       il apprend et enseigne le close combat militaire.
                     </p>
-                    <p className="dark:text-white text-slate-700 mb-6 whitespace-pre-line">
+                    <p className="text-xl leading-relaxed dark:text-white text-slate-700 mb-6 whitespace-pre-line">
                       En 1970, de retour à la vie civile, passionné par les arts martiaux et les sports de combat,
                       il pratique tour à tour le Ko-budo, le Judo, le Ju-Jitsu, l’Iaïdo, le Jodo et le Yoseikan-budo.
                       En 1985 il créé une école martiale française : le B.S-D (Bâton de combat – Self-Défense).
                     </p>
-                    <p className="dark:text-white text-slate-700 mb-6 whitespace-pre-line">
+                    <p className="text-xl leading-relaxed dark:text-white text-slate-700 mb-6 whitespace-pre-line">
                       Comment surmonter ses angoisses, ses doutes et ses peurs lorsqu’ils sont liés à un traumatisme
                       de l’enfance ? En quoi les arts martiaux peuvent-ils représenter une véritable et perpétuelle école de vie ?
                       Comment leur pratique passionnée permet-elle de reprendre prise sur soi tout en apprenant
