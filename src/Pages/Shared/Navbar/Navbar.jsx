@@ -181,7 +181,7 @@ const Navbar = () => {
           <Link to="/" className="cursor-pointer ml-auto lg:ml-0">
             {navbarBg !== "transparent" ? (
               <img
-                className="w-12 lg:w-28"  // ⬅️ Smaller on mobile
+                className="w-12 lg:w-18"  // ⬅️ Smaller on mobile
                 src={rlogo}
                 alt="Logo Bâton de Combat. Self-Défense Toulouse"
               />

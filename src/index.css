@@ -25,3 +25,19 @@
         @apply text-purple-500 border-b-2 rounded-none border-b-purple-500;
     }
 }
+
+@keyframes pulse-magenta-purple {
+  0% {
+    background-color: #a855f7; /* Tailwind purple-500 */
+  }
+  50% {
+    background-color: #8a1a8a; /* Magenta */
+  }
+  100% {
+    background-color: #a855f7; /* Purple again */
+  }
+}
+
+.animate-magenta-purple {
+  animation: pulse-magenta-purple 5s linear infinite;
+}

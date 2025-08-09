@@ -30,12 +30,9 @@ const Livre = () => {
 
               <div className="text-center lg:text-left mt-12">
                 <div className="max-w-prose mx-auto">
-                  <Reavel>
                     <h2 className="font-bold text-2xl mb-4 dark:text-white text-slate-700">
                       Le Griot fustigeur
                     </h2>
-                  </Reavel>
-                  <Reavel>
                     <p className="text-xl leading-relaxed dark:text-white text-slate-700 mb-6 whitespace-pre-line">
                       Jean Brinker est né en 1947. Surnommé « Jean-Louis » par son grand-père maternel
                       qui le recueille à l'adolescence, celui-ci l'encourage dès l'âge de 16 ans à pratiquer
@@ -55,7 +52,6 @@ const Livre = () => {
                       Ce sont ces questions majeures que le récit autobiographique de Jean Brinker entreprend de se confronter,
                       nous livrant avec délicatesse mais aussi humour, une histoire emplie d’humanité.
                     </p>
-                  </Reavel>
                   <Reavel>
                     <a
                       href="/docs/le-griot-fustigeur.pdf"

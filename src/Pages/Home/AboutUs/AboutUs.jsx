@@ -26,12 +26,9 @@ const AboutUs = () => {
                   />
                 </div>
                 <div>
-                  <Reavel>
                     <p className="text-lg leading-relaxed text-slate-700 dark:text-white">
                     <br/>
-                    <Reavel>
                       <p className="font-bold text-xl mb-2">Cours d'essai gratuit</p>
-                    </Reavel>
                       Le mieux pour se faire une idée précise, est de venir essayer.<br/>
                       Pour s&#39;inscrire, il est préférable d&#39;appeler le 07 69 23 76 77.<br/>
                       Laissez un message vocal en indiquant
@@ -52,7 +49,6 @@ const AboutUs = () => {
                         <span className="text-purple-500">Plus d'informations sur les cotisations ici</span>
                       </Link>
                     </p>
-                  </Reavel>
                   <br />
                 </div>
               </div>
@@ -79,9 +75,7 @@ const AboutUs = () => {
                   <p className="text-lg leading-relaxed text-slate-700 dark:text-white">
                     <Reavel>
                       <p className="font-bold text-xl mb-2">Lundis 20h - 22h</p>
-                    </Reavel>
                     <ul className="list-disc ps-6">
-                      <Reavel>
                         {" "}
                         <li>
                         <b>Cours de Self-Défense</b>  <br/>
@@ -92,18 +86,16 @@ const AboutUs = () => {
                           Défense contre couteau et armes contondantes.  <br/>
                           Assauts libres, combats avec protections.
                         </li>
-                      </Reavel>
                     </ul>
+                    </Reavel>
                     </p>
                   <br/>
                   <br/>
-                    <p className="text-lg leading-relaxed text-slate-700 dark:text-white">
                     <Reavel>
+                    <p className="text-lg leading-relaxed text-slate-700 dark:text-white">
                       <p className="font-bold text-xl mb-2">Jeudis 20h - 22h</p>
-                    </Reavel>
                     
                     <ul className="list-disc ps-6">
-                      <Reavel>
                         {" "}
                         <li>
                         <b>Cours de Bâton de combat</b> <br/>
@@ -117,48 +109,42 @@ const AboutUs = () => {
                           Combats avec canne p.v.c mousse et protections. <br/>
                           Combats avec bâton long et protections. Arbitrage.
                         </li>
-                      </Reavel>
                     </ul>
                   </p>
+                    </Reavel>
                   <br/>
                   <br/>
                   <div>
-                    <p className="text-lg leading-relaxed text-slate-700 dark:text-white">
                       <Reavel>
+                    <p className="text-lg leading-relaxed text-slate-700 dark:text-white">
                         <p className="font-bold text-xl mb-2">Samedis 14h - 18h</p>
-                      </Reavel>
                       <ul className="list-disc ps-6">
-                        <Reavel>
                           {" "}
                           <li>
                           Cours suivant la disponibilité des enseignants et le nombre de participants. <br/>
                           Certains samedis reservés à la formation des Enseignants et Enseignantes.
                           </li>
-                        </Reavel>
                       </ul>
                     </p>
+                      </Reavel>
                   </div>
                 </div>
               </div>
             </FadeInAnimation>
             <FadeInAnimation>
-              <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
+              <div className="flex flex-col lg:flex-row justify-center items-center gap-10 mt-8">
                 <div>
                   <div className="dark:text-white text-slate-700">
-                    <Reavel>
                       <p 
-                          className="text-base text-xl md:text-2xl leading-relaxed text-slate-700 dark:text-slate-300 text-center"
+                          className="max-w-[740px] mx-auto text-base text-xl md:text-2xl leading-relaxed text-slate-700 dark:text-slate-300 text-center"
                         >
-                          Le B.S-D Bâton de Combat. Self-Défense est un art martial français.
-                          <br/> 
-                          Créé à Toulouse en 1984 par Maître Jean Louis Brinker.
+                          Le B.S-D Bâton de Combat. Self-Défense est un art martial français créé à Toulouse en 1984 par Maître Jean Louis Brinker.
                           <br/>
                         <Link to="https://www.baton-self.fr" target="_blank" className="text-purple-500 font-semibold mt-2 underline">
                           <span  className="inline-block mt-4 px-5 py-3 bg-gradient-to-r from-majenta-500 to-purple-500 text-white font-semibold rounded-lg shadow-md hover:opacity-90 transition">
                             Visitez le site officiel du B.S-D</span>
                         </Link>
                       </p>
-                    </Reavel>
                     
                   </div>
                 </div>

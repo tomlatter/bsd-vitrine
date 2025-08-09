@@ -45,14 +45,12 @@ const Baton = () => {
 
                 <div className="w-full lg:w-1/2 text-center lg:text-left">
                 <div className="max-w-prose mx-auto">
-                    <Reavel>
                     <h2 className="font-bold text-2xl mb-4 dark:text-white text-slate-700">Origines</h2>
                     <p className="dark:text-white text-slate-700 mb-6 whitespace-pre-line">
                         Le combat au bâton long existe partout dans le monde depuis que l’Homme existe.
                         En France, dans les périodes violentes comme au moyen-âge, c’était un fidèle compagnon. Il aidait à marcher, descendre à flanc de montagne, gauler des fruits, passer à gué des rivières et surtout se défendre.
                         Il était enseigné dans l’armée napoléonienne, puis quelques Maîtres bâtonnistes ont œuvrés en France au 19, 20 et 21ème siècle.
                     </p>
-                    </Reavel>
 
                 </div>
                 </div>
