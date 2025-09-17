@@ -1,0 +1,19 @@
+# Force a trailing slash for /officiel
+[[redirects]]
+  from = "/officiel"
+  to = "/officiel/"
+  status = 301
+  force = true
+
+# Proxy /officiel/* to the official Netlify site
+[[redirects]]
+  from = "/officiel/*"
+  to = "https://officiel-bsd.netlify.app/officiel/:splat"
+  status = 200
+  force = true
+
+# Vitrine SPA fallback (must be LAST)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

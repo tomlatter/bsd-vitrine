@@ -84,16 +84,16 @@ const Footer = () => {
             Liens rapides
           </header>
           <div className="flex flex-col space-y-3 text-base text-white">
-            <Link to="https://www.baton-self.fr" target="_blank" className="link link-hover hover:text-purple-500">
+            <Link to="/officiel" target="_blank" className="link link-hover hover:text-purple-500">
               Site Officiel B.S-D
             </Link>
-            <Link to="https://baton-self.fr/cours#cotisations" target="_blank" className="link link-hover hover:text-purple-500">
+            <Link to="/officiel/cours#cotisations" target="_blank" className="link link-hover hover:text-purple-500">
               Cotisations
             </Link>
-            <Link to="https://baton-self.fr/cours#bsd-au-feminin" target="_blank" className="link link-hover hover:text-purple-500">
+            <Link to="/officiel/cours#bsd-au-feminin" target="_blank" className="link link-hover hover:text-purple-500">
               BSD au Féminin
             </Link>
-            <Link  to="https://baton-self.fr/origines#le-griot" target="_blank" className="link link-hover hover:text-purple-500">
+            <Link  to="/officiel/origines#le-griot" target="_blank" className="link link-hover hover:text-purple-500">
               Le Griot Fustigeur
             </Link>
           </div>

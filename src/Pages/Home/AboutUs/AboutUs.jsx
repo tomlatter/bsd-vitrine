@@ -45,7 +45,7 @@ const AboutUs = () => {
                       Pour continuer par la suite, un
                       certificat médical sera nécesaire.<br/>
                       Une cotisation vous sera également demandée.<br/>
-                      <Link to="https://baton-self.fr/cours#cotisations" target="_blank" className="text-purple-500 font-semibold mt-2 underline">
+                      <Link to="/officiel/cours#cotisations" target="_blank" className="text-purple-500 font-semibold mt-2 underline">
                         <span className="text-purple-500">Plus d'informations sur les cotisations ici</span>
                       </Link>
                     </p>
@@ -140,7 +140,7 @@ const AboutUs = () => {
                         >
                           Le B.S-D Bâton de Combat. Self-Défense est un art martial français créé à Toulouse en 1984 par Maître Jean Louis Brinker.
                           <br/>
-                        <Link to="https://www.baton-self.fr" target="_blank" className="text-purple-500 font-semibold mt-2 underline">
+                        <Link to="/officiel" target="_blank" className="text-purple-500 font-semibold mt-2 underline">
                           <span  className="inline-block mt-4 px-5 py-3 bg-gradient-to-r from-majenta-500 to-purple-500 text-white font-semibold rounded-lg shadow-md hover:opacity-90 transition">
                             Visitez le site officiel du B.S-D</span>
                         </Link>
