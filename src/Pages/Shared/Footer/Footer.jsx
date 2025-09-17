@@ -85,7 +85,7 @@ const Footer = () => {
           </header>
           <div className="flex flex-col space-y-3 text-base text-white">
             <Link to="/officiel/" target="_blank" className="link link-hover hover:text-purple-500">
-              Site Officiel B.S-D
+              Guide Officiel du B.S-D
             </Link>
             <Link to="/officiel/cours#cotisations" target="_blank" className="link link-hover hover:text-purple-500">
               Cotisations

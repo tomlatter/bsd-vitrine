@@ -142,7 +142,7 @@ const AboutUs = () => {
                           <br/>
                         <Link to="/officiel/" target="_blank" className="text-purple-500 font-semibold mt-2 underline">
                           <span  className="inline-block mt-4 px-5 py-3 bg-gradient-to-r from-majenta-500 to-purple-500 text-white font-semibold rounded-lg shadow-md hover:opacity-90 transition">
-                            Visitez le site officiel du B.S-D</span>
+                            Visitez le guide officiel du B.S-D</span>
                         </Link>
                       </p>
                     
