@@ -1,0 +1,13 @@
+<!-- /sitemap.xml -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Vitrine -->
+  <url><loc>https://baton-self.club/</loc></url>
+
+  <!-- Official -->
+  <url><loc>https://baton-self.club/officiel/</loc></url>
+  <url><loc>https://baton-self.club/officiel/cours</loc></url>
+  <url><loc>https://baton-self.club/officiel/niveaux</loc></url>
+  <url><loc>https://baton-self.club/officiel/sagesse</loc></url>
+  <url><loc>https://baton-self.club/officiel/techniques</loc></url>
+  <url><loc>https://baton-self.club/officiel/photos</loc></url>
+</urlset>

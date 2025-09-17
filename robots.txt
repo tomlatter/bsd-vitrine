@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://baton-self.club/sitemap.xml
