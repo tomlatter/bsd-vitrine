@@ -1,4 +1,8 @@
 [[redirects]]
+  from = "/officiel"
+  to   = "https://officiel-bsd.netlify.app/officiel/"
+  status = 200
+[[redirects]]
   from = "/officiel/*"
   to = "https://officiel-bsd.netlify.app/officiel/:splat"
   status = 200
