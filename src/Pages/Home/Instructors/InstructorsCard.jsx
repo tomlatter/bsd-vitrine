@@ -3,7 +3,7 @@ import "@smastrom/react-rating/style.css";
 import { Rating } from "@smastrom/react-rating";
 
 const InstructorsCard = ({staff}) => {
-    const { name, image, designation, disciplines  } = staff;
+    const { name, image, designation, disciplines, titre  } = staff;
     return (
       <div className="card card-compact max-w-md  shadow-xl">
         <figure>
@@ -16,7 +16,8 @@ const InstructorsCard = ({staff}) => {
         </figure>
         <div className="card-body text-majenta-800 dark:text-white">
           <h2 className="card-title ">{name}</h2>
-          <p className="-mt-4">{designation}</p>
+          <p className="-mt-2">{titre && titre}</p>
+          <p className="-mt-0">{designation}</p>
           <br/>
           <p className="-mt-2 text-base">
             <span className="font-semibold"></span> {disciplines}{" "}
