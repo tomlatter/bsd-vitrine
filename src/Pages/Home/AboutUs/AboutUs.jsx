@@ -48,6 +48,13 @@ const AboutUs = () => {
                       <Link to="/officiel/cours#cotisations" target="_blank" className="text-purple-500 font-semibold mt-2 underline">
                         <span className="text-purple-500">Plus d'informations sur les cotisations ici</span>
                       </Link>
+                      <br/>
+                          <a
+                            href="/docs/charte-asat-bsd.pdf"
+                            download
+                            className="text-purple-500 font-semibold mt-2 underline">
+                               Téléchargez la Charte ASAT - B.S-D ici
+                          </a>
                     </p>
                   <br />
                 </div>

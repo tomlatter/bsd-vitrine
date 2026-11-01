@@ -94,8 +94,17 @@ const Footer = () => {
               BSD au Féminin
             </Link>
             <Link  to="/officiel/origines#le-griot" target="_blank" className="link link-hover hover:text-purple-500">
+              Charte du B.S-D
+            </Link> 
+            <Link  to="/officiel/origines#le-griot" target="_blank" className="link link-hover hover:text-purple-500">
               Le Griot Fustigeur
-            </Link>
+            </Link>                    
+            <a
+              href="/docs/charte-asat-bsd.pdf"
+              download
+              className="link link-hover hover:text-purple-500">
+                  Charte ASAT - B.S-D
+            </a>
           </div>
         </nav>
 
